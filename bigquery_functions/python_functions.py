@@ -120,5 +120,5 @@ def run_query(query) -> None:
 
 def return_query_output_as_df(query):
     query_job = bq_client.query(query)
-    results = query_job.result()
-    return results.to_dataframe()
+    results = query_job.to_dataframe()
+    return results
