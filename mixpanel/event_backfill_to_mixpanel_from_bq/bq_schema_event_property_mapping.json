@@ -1,0 +1,5318 @@
+[
+    {
+        "column_name": "TIME",
+        "data_type": "STRING",
+        "mp_property_name": "time"
+      },
+    
+    {
+      "column_name": "_AE_CRASHED_REASON",
+      "data_type": "STRING",
+      "mp_property_name": "$ae_crashed_reason"
+    },
+    {
+        "column_name": "distinct_id",
+        "data_type": "STRING",
+        "mp_property_name": "distinct_id"
+      },
+    {
+      "column_name": "_anon_distinct_id",
+      "data_type": "STRING",
+      "mp_property_name": "$anon_distinct_id"
+    },
+    {
+      "column_name": "_AE_FIRST_APP_OPEN_DATE",
+      "data_type": "STRING",
+      "mp_property_name": "$ae_first_app_open_date"
+    },
+    {
+      "column_name": "_AE_SESSION_LENGTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$ae_session_length"
+    },
+    {
+      "column_name": "_AE_UPDATED_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "$ae_updated_version"
+    },
+    {
+      "column_name": "_APP_BUILD_NUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "$app_build_number"
+    },
+    {
+      "column_name": "_APP_RELEASE",
+      "data_type": "STRING",
+      "mp_property_name": "$app_release"
+    },
+    {
+      "column_name": "_APP_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "$app_version"
+    },
+    {
+      "column_name": "_APP_VERSION_STRING",
+      "data_type": "STRING",
+      "mp_property_name": "$app_version_string"
+    },
+    {
+      "column_name": "_BLUETOOTH_ENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "$bluetooth_enabled"
+    },
+    {
+      "column_name": "_BLUETOOTH_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "$bluetooth_version"
+    },
+    {
+      "column_name": "_BRAND",
+      "data_type": "STRING",
+      "mp_property_name": "$brand"
+    },
+    {
+      "column_name": "_BROWSER",
+      "data_type": "STRING",
+      "mp_property_name": "$browser"
+    },
+    {
+      "column_name": "_BROWSER_VERSION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$browser_version"
+    },
+    {
+      "column_name": "_CARRIER",
+      "data_type": "STRING",
+      "mp_property_name": "$carrier"
+    },
+    {
+      "column_name": "_CITY",
+      "data_type": "STRING",
+      "mp_property_name": "$city"
+    },
+    {
+      "column_name": "_CURRENT_URL",
+      "data_type": "STRING",
+      "mp_property_name": "$current_url"
+    },
+    {
+      "column_name": "_DEVICE",
+      "data_type": "STRING",
+      "mp_property_name": "$device"
+    },
+    {
+      "column_name": "_DEVICE_ID",
+      "data_type": "STRING",
+      "mp_property_name": "$device_id"
+    },
+    {
+      "column_name": "_DISTINCT_ID_BEFORE_IDENTITY",
+      "data_type": "STRING",
+      "mp_property_name": "$distinct_id_before_identity"
+    },
+    {
+      "column_name": "_FAILURE_DESCRIPTION",
+      "data_type": "STRING",
+      "mp_property_name": "$failure_description"
+    },
+    {
+      "column_name": "_FAILURE_REASON",
+      "data_type": "STRING",
+      "mp_property_name": "$failure_reason"
+    },
+    {
+      "column_name": "_HAS_NFC",
+      "data_type": "BOOL",
+      "mp_property_name": "$has_nfc"
+    },
+    {
+      "column_name": "_HAS_TELEPHONE",
+      "data_type": "BOOL",
+      "mp_property_name": "$has_telephone"
+    },
+    {
+      "column_name": "_IMPORT",
+      "data_type": "BOOL",
+      "mp_property_name": "$import"
+    },
+    {
+      "column_name": "_INITIAL_REFERRER",
+      "data_type": "STRING",
+      "mp_property_name": "$initial_referrer"
+    },
+    {
+      "column_name": "_INITIAL_REFERRING_DOMAIN",
+      "data_type": "STRING",
+      "mp_property_name": "$initial_referring_domain"
+    },
+    {
+      "column_name": "_insert_id",
+      "data_type": "STRING",
+      "mp_property_name": "$insert_id"
+    },
+    {
+      "column_name": "_LIB_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "$lib_version"
+    },
+    {
+      "column_name": "_MANUFACTURER",
+      "data_type": "STRING",
+      "mp_property_name": "$manufacturer"
+    },
+    {
+      "column_name": "_MODEL",
+      "data_type": "STRING",
+      "mp_property_name": "$model"
+    },
+    {
+      "column_name": "_MP_API_ENDPOINT",
+      "data_type": "STRING",
+      "mp_property_name": "$mp_api_endpoint"
+    },
+    {
+      "column_name": "_MP_API_TIMESTAMP_MS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$mp_api_timestamp_ms"
+    },
+    {
+      "column_name": "_MP_REPLAY_ID",
+      "data_type": "STRING",
+      "mp_property_name": "$mp_replay_id"
+    },
+    {
+      "column_name": "_OS",
+      "data_type": "STRING",
+      "mp_property_name": "$os"
+    },
+    {
+      "column_name": "_OS_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "$os_version"
+    },
+    {
+      "column_name": "_RADIO",
+      "data_type": "STRING",
+      "mp_property_name": "$radio"
+    },
+    {
+      "column_name": "_REFERRER",
+      "data_type": "STRING",
+      "mp_property_name": "$referrer"
+    },
+    {
+      "column_name": "_REFERRING_DOMAIN",
+      "data_type": "STRING",
+      "mp_property_name": "$referring_domain"
+    },
+    {
+      "column_name": "_REGION",
+      "data_type": "STRING",
+      "mp_property_name": "$region"
+    },
+    {
+      "column_name": "_SCREEN_DPI",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$screen_dpi"
+    },
+    {
+      "column_name": "_SCREEN_HEIGHT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$screen_height"
+    },
+    {
+      "column_name": "_SCREEN_WIDTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "$screen_width"
+    },
+    {
+      "column_name": "_SEARCH_ENGINE",
+      "data_type": "STRING",
+      "mp_property_name": "$search_engine"
+    },
+    {
+      "column_name": "_USER_AGENT",
+      "data_type": "STRING",
+      "mp_property_name": "$user_agent"
+    },
+    {
+      "column_name": "_USER_ID",
+      "data_type": "STRING",
+      "mp_property_name": "$user_id"
+    },
+    {
+      "column_name": "_WIFI",
+      "data_type": "BOOL",
+      "mp_property_name": "$wifi"
+    },
+    {
+      "column_name": "ABCONFIGIDENTIFIER",
+      "data_type": "STRING",
+      "mp_property_name": "abConfigIdentifier"
+    },
+    {
+      "column_name": "ABNAME",
+      "data_type": "STRING",
+      "mp_property_name": "abName"
+    },
+    {
+      "column_name": "ABOUTPAGECONFIGSFETCHED",
+      "data_type": "BOOL",
+      "mp_property_name": "aboutPageConfigsFetched"
+    },
+    {
+      "column_name": "ABVARIANT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "abVariant"
+    },
+    {
+      "column_name": "ACCOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "account"
+    },
+    {
+      "column_name": "ACCOUNT_ID",
+      "data_type": "STRING",
+      "mp_property_name": "account_id"
+    },
+    {
+      "column_name": "ACCOUNTAIVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "accountAIVideoVariant"
+    },
+    {
+      "column_name": "ACCOUNTCARDDESIGNVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "accountCardDesignVariant"
+    },
+    {
+      "column_name": "ACCOUNTHOLDERNAME",
+      "data_type": "STRING",
+      "mp_property_name": "accountHolderName"
+    },
+    {
+      "column_name": "ACCOUNTID",
+      "data_type": "STRING",
+      "mp_property_name": "accountId"
+    },
+    {
+      "column_name": "ACCOUNTNAME",
+      "data_type": "STRING",
+      "mp_property_name": "accountName"
+    },
+    {
+      "column_name": "ACCOUNTNOTELIGIBLETORAISEDISPUTE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "accountNotEligibleToRaiseDispute"
+    },
+    {
+      "column_name": "ACCOUNTNUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "accountNumber"
+    },
+    {
+      "column_name": "ACCOUNTNUMBERTOSHOW",
+      "data_type": "STRING",
+      "mp_property_name": "accountNumberToShow"
+    },
+    {
+      "column_name": "ACCOUNTSELIGIBLETORAISEDISPUTE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "accountsEligibleToRaiseDispute"
+    },
+    {
+      "column_name": "ACCOUNTSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "accountStatus"
+    },
+    {
+      "column_name": "ACCOUNTTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "accountType"
+    },
+    {
+      "column_name": "ACTION",
+      "data_type": "STRING",
+      "mp_property_name": "action"
+    },
+    {
+      "column_name": "ACTIONTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "actionType"
+    },
+    {
+      "column_name": "ACTIVESCREEN",
+      "data_type": "STRING",
+      "mp_property_name": "activeScreen"
+    },
+    {
+      "column_name": "ADDITIONALPARAMS",
+      "data_type": "STRING",
+      "mp_property_name": "additionalParams"
+    },
+    {
+      "column_name": "ADDLOANBUTTONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "addLoanButtonVariant"
+    },
+    {
+      "column_name": "ADGROUP_NAME",
+      "data_type": "STRING",
+      "mp_property_name": "adgroup_name"
+    },
+    {
+      "column_name": "AFTERPAYMENTREDIRECTIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "afterPaymentRedirectionVariant"
+    },
+    {
+      "column_name": "AIVIDEOAUTOPLAYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "aiVideoAutoplayVariant"
+    },
+    {
+      "column_name": "ALERTCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "alertCount"
+    },
+    {
+      "column_name": "AMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "amount"
+    },
+    {
+      "column_name": "AMOUNTSAVED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "amountSaved"
+    },
+    {
+      "column_name": "AMOUNTSAVEDVALUEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "amountSavedValueVariant"
+    },
+    {
+      "column_name": "AMOUNTTOBEDEDUCTED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "amountToBeDeducted"
+    },
+    {
+      "column_name": "AMOUNTTOBEPAID",
+      "data_type": "STRING",
+      "mp_property_name": "amountToBePaid"
+    },
+    {
+      "column_name": "AMOUNTTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "amountType"
+    },
+    {
+      "column_name": "AMTSAVED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "amtSaved"
+    },
+    {
+      "column_name": "ANDROIDDEVICEID",
+      "data_type": "STRING",
+      "mp_property_name": "androidDeviceId"
+    },
+    {
+      "column_name": "ANDROIDID",
+      "data_type": "STRING",
+      "mp_property_name": "androidId"
+    },
+    {
+      "column_name": "ANYACCOUNTELIGIBLEFORHIGHAMTEXPERIMENT",
+      "data_type": "BOOL",
+      "mp_property_name": "anyAccountEligibleForHighAmtExperiment"
+    },
+    {
+      "column_name": "APIVERSION",
+      "data_type": "STRING",
+      "mp_property_name": "apiVersion"
+    },
+    {
+      "column_name": "APP",
+      "data_type": "STRING",
+      "mp_property_name": "app"
+    },
+    {
+      "column_name": "APPINSTANCEID",
+      "data_type": "STRING",
+      "mp_property_name": "appInstanceId"
+    },
+    {
+      "column_name": "APPNAME",
+      "data_type": "STRING",
+      "mp_property_name": "appName"
+    },
+    {
+      "column_name": "APPROVALREFNUM",
+      "data_type": "STRING",
+      "mp_property_name": "approvalRefNum"
+    },
+    {
+      "column_name": "APPURL",
+      "data_type": "STRING",
+      "mp_property_name": "appUrl"
+    },
+    {
+      "column_name": "APPVERISON",
+      "data_type": "STRING",
+      "mp_property_name": "appVerison"
+    },
+    {
+      "column_name": "APPVIEWEDCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "appViewedCount"
+    },
+    {
+      "column_name": "ASKINGAGAIN",
+      "data_type": "BOOL",
+      "mp_property_name": "askingAgain"
+    },
+    {
+      "column_name": "AUDIOTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "audioType"
+    },
+    {
+      "column_name": "AUTHTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "authType"
+    },
+    {
+      "column_name": "AUTOLAUNCH",
+      "data_type": "BOOL",
+      "mp_property_name": "autoLaunch"
+    },
+    {
+      "column_name": "AUTOPAYACTIVEACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "autopayActiveAccounts"
+    },
+    {
+      "column_name": "AUTOPAYBILLID",
+      "data_type": "STRING",
+      "mp_property_name": "autopayBillId"
+    },
+    {
+      "column_name": "AUTOPAYCANCELLATIONINPROGRESS",
+      "data_type": "BOOL",
+      "mp_property_name": "autopayCancellationInProgress"
+    },
+    {
+      "column_name": "AUTOPAYFREQUENCY",
+      "data_type": "STRING",
+      "mp_property_name": "autopayFrequency"
+    },
+    {
+      "column_name": "AUTOPAYID",
+      "data_type": "STRING",
+      "mp_property_name": "autopayId"
+    },
+    {
+      "column_name": "AUTOPAYINAPPCANCELLATIONVARIANT",
+      "data_type": "BOOL",
+      "mp_property_name": "autopayInAppCancellationVariant"
+    },
+    {
+      "column_name": "AUTOPAYLOANS",
+      "data_type": "STRING",
+      "mp_property_name": "autopayLoans"
+    },
+    {
+      "column_name": "AUTOPAYMONTH",
+      "data_type": "STRING",
+      "mp_property_name": "autopayMonth"
+    },
+    {
+      "column_name": "AUTOPAYOVERDUEACCOUNTSAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "autopayOverdueAccountsAmount"
+    },
+    {
+      "column_name": "AUTOPAYOVERDUEACCOUNTSCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "autopayOverdueAccountsCount"
+    },
+    {
+      "column_name": "AUTOPAYPLAN",
+      "data_type": "BOOL",
+      "mp_property_name": "autopayPlan"
+    },
+    {
+      "column_name": "AUTOPAYREMAININGDUE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "autopayRemainingDue"
+    },
+    {
+      "column_name": "AUTOPAYVARIANTTYPEHOMEPAGE",
+      "data_type": "STRING",
+      "mp_property_name": "autopayVariantTypeHomepage"
+    },
+    {
+      "column_name": "AUTOPLAY",
+      "data_type": "BOOL",
+      "mp_property_name": "autoplay"
+    },
+    {
+      "column_name": "AUTOPLAYSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "autoPlaySource"
+    },
+    {
+      "column_name": "AUTOREDIRECTED",
+      "data_type": "BOOL",
+      "mp_property_name": "autoRedirected"
+    },
+    {
+      "column_name": "AUTOREDIRECTIONMSG",
+      "data_type": "STRING",
+      "mp_property_name": "autoRedirectionMsg"
+    },
+    {
+      "column_name": "BACKHANDLINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "backHandlingVariant"
+    },
+    {
+      "column_name": "BANKNAME",
+      "data_type": "STRING",
+      "mp_property_name": "bankName"
+    },
+    {
+      "column_name": "BATCH_START_TIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "batch_start_time"
+    },
+    {
+      "column_name": "BBPSTRANSACTIONID",
+      "data_type": "STRING",
+      "mp_property_name": "bbpsTransactionId"
+    },
+    {
+      "column_name": "BBPSTRANSACTIONSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "bbpsTransactionStatus"
+    },
+    {
+      "column_name": "BBPSTXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "bbpsTxnCount"
+    },
+    {
+      "column_name": "BILLAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "billAmount"
+    },
+    {
+      "column_name": "BILLDATE",
+      "data_type": "STRING",
+      "mp_property_name": "billDate"
+    },
+    {
+      "column_name": "BILLER",
+      "data_type": "STRING",
+      "mp_property_name": "biller"
+    },
+    {
+      "column_name": "BILLERID",
+      "data_type": "STRING",
+      "mp_property_name": "billerId"
+    },
+    {
+      "column_name": "BILLERLOGO",
+      "data_type": "STRING",
+      "mp_property_name": "billerLogo"
+    },
+    {
+      "column_name": "BILLERNAME",
+      "data_type": "STRING",
+      "mp_property_name": "billerName"
+    },
+    {
+      "column_name": "BILLERSEARCHVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "billerSearchVariant"
+    },
+    {
+      "column_name": "BILLFETCHFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "billFetchFlowVariant"
+    },
+    {
+      "column_name": "BILLFETCHPOLLINGSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "billFetchPollingStatus"
+    },
+    {
+      "column_name": "BILLID",
+      "data_type": "STRING",
+      "mp_property_name": "billId"
+    },
+    {
+      "column_name": "BILLNUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "billNumber"
+    },
+    {
+      "column_name": "BILLPAYERROR",
+      "data_type": "STRING",
+      "mp_property_name": "billPayError"
+    },
+    {
+      "column_name": "BILLPAYLOAD",
+      "data_type": "STRING",
+      "mp_property_name": "billPayload"
+    },
+    {
+      "column_name": "BILLPAYMENTSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "billPaymentsPageVariant"
+    },
+    {
+      "column_name": "BILLPAYMENTSUCCESSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "billPaymentSuccessPageVariant"
+    },
+    {
+      "column_name": "BILLPAYMENTSUCCESSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "billPaymentSuccessVariant"
+    },
+    {
+      "column_name": "BILLPERIOD",
+      "data_type": "STRING",
+      "mp_property_name": "billPeriod"
+    },
+    {
+      "column_name": "BILLSPAID",
+      "data_type": "FLOAT64",
+      "mp_property_name": "billsPaid"
+    },
+    {
+      "column_name": "BILLSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "billStatus"
+    },
+    {
+      "column_name": "BLANKREPORTAPPEXPERIENCE",
+      "data_type": "STRING",
+      "mp_property_name": "blankReportAppExperience"
+    },
+    {
+      "column_name": "BLOCKCOINSUSAGE",
+      "data_type": "BOOL",
+      "mp_property_name": "blockCoinsUsage"
+    },
+    {
+      "column_name": "BNPLCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "bnplCardShown"
+    },
+    {
+      "column_name": "BOOKFDBUTTONTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "bookFdButtonTitle"
+    },
+    {
+      "column_name": "BOTTOMNAVCHATVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "bottomNavChatVariant"
+    },
+    {
+      "column_name": "BOTTOMNAVSHOWHIDEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "bottomNavShowHideVariant"
+    },
+    {
+      "column_name": "BOTTOMNAVVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "bottomNavVariant"
+    },
+    {
+      "column_name": "BREFAILED",
+      "data_type": "BOOL",
+      "mp_property_name": "breFailed"
+    },
+    {
+      "column_name": "BUREAU",
+      "data_type": "STRING",
+      "mp_property_name": "bureau"
+    },
+    {
+      "column_name": "BUREAUNAME",
+      "data_type": "STRING",
+      "mp_property_name": "bureauName"
+    },
+    {
+      "column_name": "BUYSERVICEEXITINTENTPOPUPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "buyServiceExitIntentPopupVariant"
+    },
+    {
+      "column_name": "BUYSERVICEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "buyServiceVariant"
+    },
+    {
+      "column_name": "CALLBOOKEDSUCCESS",
+      "data_type": "BOOL",
+      "mp_property_name": "callBookedSuccess"
+    },
+    {
+      "column_name": "CALLCONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "callContext"
+    },
+    {
+      "column_name": "CALLEECUID",
+      "data_type": "STRING",
+      "mp_property_name": "calleeCuid"
+    },
+    {
+      "column_name": "CALLERCUID",
+      "data_type": "STRING",
+      "mp_property_name": "callerCuid"
+    },
+    {
+      "column_name": "CALLEVENT",
+      "data_type": "STRING",
+      "mp_property_name": "callEvent"
+    },
+    {
+      "column_name": "CALLID",
+      "data_type": "STRING",
+      "mp_property_name": "callId"
+    },
+    {
+      "column_name": "CAMPAIGN",
+      "data_type": "STRING",
+      "mp_property_name": "campaign"
+    },
+    {
+      "column_name": "CAMPAIGN_GROUP_NAME",
+      "data_type": "STRING",
+      "mp_property_name": "campaign_group_name"
+    },
+    {
+      "column_name": "CAMPAIGN_NAME",
+      "data_type": "STRING",
+      "mp_property_name": "campaign_name"
+    },
+    {
+      "column_name": "CAMPAIGNNAME",
+      "data_type": "STRING",
+      "mp_property_name": "campaignName"
+    },
+    {
+      "column_name": "CANCELLATIONEXPERIENCEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cancellationExperienceVariant"
+    },
+    {
+      "column_name": "CANCELLATIONFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cancellationFlowVariant"
+    },
+    {
+      "column_name": "CANCELLATIONINPROGRESS",
+      "data_type": "BOOL",
+      "mp_property_name": "cancellationInProgress"
+    },
+    {
+      "column_name": "CANCELLATIONPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cancellationPageVariant"
+    },
+    {
+      "column_name": "CANCELLATIONPAUSEORFEEDBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cancellationPauseOrFeedbackVariant"
+    },
+    {
+      "column_name": "CANENABLEAUTOPAY",
+      "data_type": "BOOL",
+      "mp_property_name": "canEnableAutopay"
+    },
+    {
+      "column_name": "CANENABLEDAILYDEBIT",
+      "data_type": "BOOL",
+      "mp_property_name": "canEnableDailyDebit"
+    },
+    {
+      "column_name": "CANINSTAGRAMALERTBESHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "canInstagramAlertBeShown"
+    },
+    {
+      "column_name": "CANINSTAGRAMLIVEBESHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "canInstagramLiveBeShown"
+    },
+    {
+      "column_name": "CANSHOWCTA",
+      "data_type": "BOOL",
+      "mp_property_name": "canShowCta"
+    },
+    {
+      "column_name": "CASHBACK",
+      "data_type": "BOOL",
+      "mp_property_name": "cashback"
+    },
+    {
+      "column_name": "CASHBACKFORSELFFETCHVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cashbackForSelfFetchVariant"
+    },
+    {
+      "column_name": "CASHBACKOFFERAPPLIED",
+      "data_type": "BOOL",
+      "mp_property_name": "cashbackOfferApplied"
+    },
+    {
+      "column_name": "CATEGORY",
+      "data_type": "STRING",
+      "mp_property_name": "category"
+    },
+    {
+      "column_name": "CCACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "ccAccounts"
+    },
+    {
+      "column_name": "CCCASHBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "ccCashbackvariant"
+    },
+    {
+      "column_name": "CCFRAUDSTOPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "ccFraudStopVariant"
+    },
+    {
+      "column_name": "CCMAXCOINSUSAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "ccMaxCoinsUsageVariant"
+    },
+    {
+      "column_name": "CCOTHERBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "ccOtherBills"
+    },
+    {
+      "column_name": "CCPAIDBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "ccPaidBills"
+    },
+    {
+      "column_name": "CCPENDINGBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "ccPendingBills"
+    },
+    {
+      "column_name": "CCRECONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "ccReconVariant"
+    },
+    {
+      "column_name": "CHANGEONBOARDINGORDER",
+      "data_type": "BOOL",
+      "mp_property_name": "changeOnboardingOrder"
+    },
+    {
+      "column_name": "CHANNEL",
+      "data_type": "STRING",
+      "mp_property_name": "channel"
+    },
+    {
+      "column_name": "CHANNELSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "channelSource"
+    },
+    {
+      "column_name": "CHATENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "chatEnabled"
+    },
+    {
+      "column_name": "CIBILEXPERTCALLCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "cibilExpertCallCardShown"
+    },
+    {
+      "column_name": "CIBILEXPERTCALLCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cibilExpertCallCardVariant"
+    },
+    {
+      "column_name": "CLEAR_ALL_LOAN",
+      "data_type": "BOOL",
+      "mp_property_name": "clear_all_loan"
+    },
+    {
+      "column_name": "CLEARALLLOANSBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "clearAllLoansBannerVariant"
+    },
+    {
+      "column_name": "CLEVERTAPSIGNEDCALLVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "clevertapSignedCallVariant"
+    },
+    {
+      "column_name": "CLICKSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "clickSource"
+    },
+    {
+      "column_name": "CLOSE_OLDEST_ACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "close_oldest_account"
+    },
+    {
+      "column_name": "CLOSEDACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "closedAccounts"
+    },
+    {
+      "column_name": "CLOSETIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "closeTime"
+    },
+    {
+      "column_name": "CODE",
+      "data_type": "STRING",
+      "mp_property_name": "code"
+    },
+    {
+      "column_name": "COHORT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "cohort"
+    },
+    {
+      "column_name": "COINHISTORYLOADINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "coinHistoryLoadingVariant"
+    },
+    {
+      "column_name": "COINSAVAILABLE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "coinsAvailable"
+    },
+    {
+      "column_name": "COINSEARNED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "coinsEarned"
+    },
+    {
+      "column_name": "COINSFORSTEPCOMPLETIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "coinsForStepCompletionVariant"
+    },
+    {
+      "column_name": "COINSGRANTED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "coinsGranted"
+    },
+    {
+      "column_name": "COINSRECEIVED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "coinsReceived"
+    },
+    {
+      "column_name": "COINSUSAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "coinsUsageVariant"
+    },
+    {
+      "column_name": "COLLAPSABLEACCOUNTSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collapsableAccountsVariant"
+    },
+    {
+      "column_name": "COLLECTIONACCOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionAccount"
+    },
+    {
+      "column_name": "COLLECTIONACCOUNTINSTORYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionAccountInStoryVariant"
+    },
+    {
+      "column_name": "COLLECTIONACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "collectionAccounts"
+    },
+    {
+      "column_name": "COLLECTIONEXPERTCALLVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionExpertCallVariant"
+    },
+    {
+      "column_name": "COLLECTIONLENDER",
+      "data_type": "STRING",
+      "mp_property_name": "collectionLender"
+    },
+    {
+      "column_name": "COLLECTIONLENDERBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionLenderBannerVariant"
+    },
+    {
+      "column_name": "COLLECTIONLENDERPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionLenderPageVariant"
+    },
+    {
+      "column_name": "COLLECTIONLINKS",
+      "data_type": "STRING",
+      "mp_property_name": "collectionLinks"
+    },
+    {
+      "column_name": "COLLECTIONPOPUPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionPopupVariant"
+    },
+    {
+      "column_name": "COLLECTIONSRC",
+      "data_type": "STRING",
+      "mp_property_name": "collectionSrc"
+    },
+    {
+      "column_name": "COLLECTIONTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "collectionType"
+    },
+    {
+      "column_name": "COLLECTIONVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "collectionVideoVariant"
+    },
+    {
+      "column_name": "COMMSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "commSource"
+    },
+    {
+      "column_name": "COMPLETED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "completed"
+    },
+    {
+      "column_name": "CONSISTENTLOANCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "consistentLoanCardVariant"
+    },
+    {
+      "column_name": "COUNT",
+      "data_type": "STRING",
+      "mp_property_name": "count"
+    },
+    {
+      "column_name": "COUPON_CODE",
+      "data_type": "STRING",
+      "mp_property_name": "coupon_code"
+    },
+    {
+      "column_name": "CP",
+      "data_type": "STRING",
+      "mp_property_name": "cp"
+    },
+    {
+      "column_name": "CPI",
+      "data_type": "STRING",
+      "mp_property_name": "cpi"
+    },
+    {
+      "column_name": "CREATEDAT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "createdAt"
+    },
+    {
+      "column_name": "CREDIT_UTILIZATION_CARD",
+      "data_type": "STRING",
+      "mp_property_name": "credit_utilization_card"
+    },
+    {
+      "column_name": "CREDIT_UTILIZATION_PERCENTAGE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "credit_utilization_percentage"
+    },
+    {
+      "column_name": "CREDITBUREAU",
+      "data_type": "STRING",
+      "mp_property_name": "creditBureau"
+    },
+    {
+      "column_name": "CREDITCOURSEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditCourseVariant"
+    },
+    {
+      "column_name": "CREDITREPORTACCOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportAccount"
+    },
+    {
+      "column_name": "CREDITREPORTDOWNLOADBUTTONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportDownloadButtonVariant"
+    },
+    {
+      "column_name": "CREDITREPORTPAGELOADERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportPageLoaderVariant"
+    },
+    {
+      "column_name": "CREDITREPORTPAGEORDERINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportPageOrderingVariant"
+    },
+    {
+      "column_name": "CREDITREPORTPAGESCTAVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportPagesCTAVariant"
+    },
+    {
+      "column_name": "CREDITREPORTPAGEUIVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportPageUIVariant"
+    },
+    {
+      "column_name": "CREDITREPORTPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportPageVariant"
+    },
+    {
+      "column_name": "CREDITREPORTVERSION",
+      "data_type": "STRING",
+      "mp_property_name": "creditReportVersion"
+    },
+    {
+      "column_name": "CREDITSCORE",
+      "data_type": "STRING",
+      "mp_property_name": "creditscore"
+    },
+    {
+      "column_name": "CREDITSCOREDROPSUPPORTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditScoreDropSupportVariant"
+    },
+    {
+      "column_name": "CREDITSTORYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "creditStoryVariant"
+    },
+    {
+      "column_name": "CRPVIDEOBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "crpVideoBannerVariant"
+    },
+    {
+      "column_name": "CTA",
+      "data_type": "STRING",
+      "mp_property_name": "cta"
+    },
+    {
+      "column_name": "CTABUTTONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "ctaButtonText"
+    },
+    {
+      "column_name": "CTATEXT",
+      "data_type": "STRING",
+      "mp_property_name": "CTAText"
+    },
+    {
+      "column_name": "CTATYPE",
+      "data_type": "STRING",
+      "mp_property_name": "ctaType"
+    },
+    {
+      "column_name": "CURRENT_SCORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "current_score"
+    },
+    {
+      "column_name": "CURRENTBALANCE",
+      "data_type": "STRING",
+      "mp_property_name": "currentBalance"
+    },
+    {
+      "column_name": "CURRENTBANNER",
+      "data_type": "STRING",
+      "mp_property_name": "currentBanner"
+    },
+    {
+      "column_name": "CURRENTSCORE",
+      "data_type": "STRING",
+      "mp_property_name": "currentScore"
+    },
+    {
+      "column_name": "CURRENTSEGMENTID",
+      "data_type": "STRING",
+      "mp_property_name": "currentSegmentId"
+    },
+    {
+      "column_name": "CURRENTSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "currentStatus"
+    },
+    {
+      "column_name": "CURRENTTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "currentTime"
+    },
+    {
+      "column_name": "CUSTOMERPARAMS",
+      "data_type": "STRING",
+      "mp_property_name": "customerParams"
+    },
+    {
+      "column_name": "CUSTOMERPHONENUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "customerPhoneNumber"
+    },
+    {
+      "column_name": "CXENVIRONMENTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "cxEnvironmentVariant"
+    },
+    {
+      "column_name": "CYCLE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "cycle"
+    },
+    {
+      "column_name": "DAILYDEBITCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "dailyDebitCardShown"
+    },
+    {
+      "column_name": "DAILYDEBITDOCID",
+      "data_type": "STRING",
+      "mp_property_name": "dailyDebitDocId"
+    },
+    {
+      "column_name": "DAILYDEBITEMIAMT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "dailyDebitEmiAmt"
+    },
+    {
+      "column_name": "DAILYDEBITINAPPCANCELLATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "dailyDebitInAppCancellationVariant"
+    },
+    {
+      "column_name": "DAILYDEBITSTARTDATE",
+      "data_type": "STRING",
+      "mp_property_name": "dailyDebitStartDate"
+    },
+    {
+      "column_name": "DAILYDEBITTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "dailyDebitType"
+    },
+    {
+      "column_name": "DATE",
+      "data_type": "STRING",
+      "mp_property_name": "date"
+    },
+    {
+      "column_name": "DEDUCTIONATTEMPTCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "deductionAttemptCount"
+    },
+    {
+      "column_name": "DEDUCTIONMONTH",
+      "data_type": "STRING",
+      "mp_property_name": "deductionMonth"
+    },
+    {
+      "column_name": "DEEPLINK",
+      "data_type": "STRING",
+      "mp_property_name": "deepLink"
+    },
+    {
+      "column_name": "DEFAULTSELECTEDUPIAPP",
+      "data_type": "STRING",
+      "mp_property_name": "defaultSelectedUpiApp"
+    },
+    {
+      "column_name": "DEFAULTUPIAPP",
+      "data_type": "STRING",
+      "mp_property_name": "defaultUPIApp"
+    },
+    {
+      "column_name": "DESIGNVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "designVariant"
+    },
+    {
+      "column_name": "DETAILSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "detailsPageVariant"
+    },
+    {
+      "column_name": "DETAILSUBMISSIONERROR",
+      "data_type": "STRING",
+      "mp_property_name": "detailSubmissionError"
+    },
+    {
+      "column_name": "DEVICEOS",
+      "data_type": "STRING",
+      "mp_property_name": "deviceOS"
+    },
+    {
+      "column_name": "DIALOGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "dialogVariant"
+    },
+    {
+      "column_name": "DIRECTBILLLAUNCH",
+      "data_type": "STRING",
+      "mp_property_name": "directBillLaunch"
+    },
+    {
+      "column_name": "DIRECTEARLYLAUNCH",
+      "data_type": "STRING",
+      "mp_property_name": "directEarlyLaunch"
+    },
+    {
+      "column_name": "DIRECTION",
+      "data_type": "STRING",
+      "mp_property_name": "direction"
+    },
+    {
+      "column_name": "DIRECTLAUNCH",
+      "data_type": "STRING",
+      "mp_property_name": "directLaunch"
+    },
+    {
+      "column_name": "DIRECTRECEIPTLAUNCH",
+      "data_type": "BOOL",
+      "mp_property_name": "directReceiptLaunch"
+    },
+    {
+      "column_name": "DISABLEPAYTM",
+      "data_type": "BOOL",
+      "mp_property_name": "disablePaytm"
+    },
+    {
+      "column_name": "DISABLEUPIINTENT",
+      "data_type": "BOOL",
+      "mp_property_name": "disableUpiIntent"
+    },
+    {
+      "column_name": "DISCOUNTAMOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "discountAmount"
+    },
+    {
+      "column_name": "DISCOUNTDATA",
+      "data_type": "STRING",
+      "mp_property_name": "discountData"
+    },
+    {
+      "column_name": "DISPUTEAUTOMATIONUIVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "disputeAutomationUiVariant"
+    },
+    {
+      "column_name": "DISPUTETYPE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "disputeType"
+    },
+    {
+      "column_name": "DISTINCT",
+      "data_type": "STRING",
+      "mp_property_name": "distinct"
+    },
+    {
+      "column_name": "DISTINCT_ID6",
+      "data_type": "STRING",
+      "mp_property_name": "distinct_id6"
+    },
+    {
+      "column_name": "DISTINCTID",
+      "data_type": "STRING",
+      "mp_property_name": "distinctId"
+    },
+    {
+      "column_name": "DLSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "dlSource"
+    },
+    {
+      "column_name": "DUEDATE",
+      "data_type": "STRING",
+      "mp_property_name": "dueDate"
+    },
+    {
+      "column_name": "DUEDATECONFIG",
+      "data_type": "STRING",
+      "mp_property_name": "dueDateConfig"
+    },
+    {
+      "column_name": "DUEDATESOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "dueDateSource"
+    },
+    {
+      "column_name": "DURATION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "duration"
+    },
+    {
+      "column_name": "EARLYSCOREREFRESHDIALOG",
+      "data_type": "STRING",
+      "mp_property_name": "earlyScoreRefreshDialog"
+    },
+    {
+      "column_name": "EASYLOANPAYMENTCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "easyLoanPaymentCardShown"
+    },
+    {
+      "column_name": "ELIGIBLEFOREMI",
+      "data_type": "BOOL",
+      "mp_property_name": "eligibleForEmi"
+    },
+    {
+      "column_name": "EMAILOPTIONCTASHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "emailOptionCtaShown"
+    },
+    {
+      "column_name": "EMAILPERMISSIONERRORCODE",
+      "data_type": "STRING",
+      "mp_property_name": "emailPermissionErrorCode"
+    },
+    {
+      "column_name": "EMIAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "emiAmount"
+    },
+    {
+      "column_name": "EMIAMOUNTSELECTEDINPERCENTAGE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "emiAmountSelectedInPercentage"
+    },
+    {
+      "column_name": "EMICALCULATORCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "emiCalculatorCardShown"
+    },
+    {
+      "column_name": "EMIFREQUENCY",
+      "data_type": "STRING",
+      "mp_property_name": "emiFrequency"
+    },
+    {
+      "column_name": "EMIREFERSWAPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "emiReferSwapVariant"
+    },
+    {
+      "column_name": "ENABLEABOUTCONFIGS",
+      "data_type": "BOOL",
+      "mp_property_name": "enableAboutConfigs"
+    },
+    {
+      "column_name": "ENABLEALLUPIAPP",
+      "data_type": "BOOL",
+      "mp_property_name": "enableAllUpiApp"
+    },
+    {
+      "column_name": "ENABLEAUTOPAYCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "enableAutopayCardShown"
+    },
+    {
+      "column_name": "ENABLECREDITMETER",
+      "data_type": "BOOL",
+      "mp_property_name": "enableCreditMeter"
+    },
+    {
+      "column_name": "ENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "enabled"
+    },
+    {
+      "column_name": "ENABLEDEXPERTCALL",
+      "data_type": "BOOL",
+      "mp_property_name": "enabledExpertCall"
+    },
+    {
+      "column_name": "ENABLEFIREBASEOTP",
+      "data_type": "BOOL",
+      "mp_property_name": "enableFirebaseOTP"
+    },
+    {
+      "column_name": "ENABLEOFFER",
+      "data_type": "BOOL",
+      "mp_property_name": "enableOffer"
+    },
+    {
+      "column_name": "ENABLEOFFERAFTER",
+      "data_type": "FLOAT64",
+      "mp_property_name": "enableOfferAfter"
+    },
+    {
+      "column_name": "ENABLEPREMIUMFEATURESACCESS",
+      "data_type": "BOOL",
+      "mp_property_name": "enablePremiumFeaturesAccess"
+    },
+    {
+      "column_name": "ENABLESKIP",
+      "data_type": "BOOL",
+      "mp_property_name": "enableSkip"
+    },
+    {
+      "column_name": "ENABLESKIPONERROR",
+      "data_type": "BOOL",
+      "mp_property_name": "enableSkipOnError"
+    },
+    {
+      "column_name": "ENQUIRESRAISEDIN30DAYS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "enquiresRaisedIn30days"
+    },
+    {
+      "column_name": "ENQUIRIES",
+      "data_type": "FLOAT64",
+      "mp_property_name": "enquiries"
+    },
+    {
+      "column_name": "ENQUIRIES_COUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "enquiries_count"
+    },
+    {
+      "column_name": "ENQUIRYACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "enquiryAccounts"
+    },
+    {
+      "column_name": "ENQUIRYACTIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryActionVariant"
+    },
+    {
+      "column_name": "ENQUIRYCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryCardVariant"
+    },
+    {
+      "column_name": "ENQUIRYDATE",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryDate"
+    },
+    {
+      "column_name": "ENQUIRYHOMECARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryHomeCardVariant"
+    },
+    {
+      "column_name": "ENQUIRYPURPOSE",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryPurpose"
+    },
+    {
+      "column_name": "ENQUIRYVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "enquiryVideoVariant"
+    },
+    {
+      "column_name": "ENTRYPOINT",
+      "data_type": "STRING",
+      "mp_property_name": "entryPoint"
+    },
+    {
+      "column_name": "ERRMESSAGE",
+      "data_type": "STRING",
+      "mp_property_name": "errMessage"
+    },
+    {
+      "column_name": "ERROR",
+      "data_type": "STRING",
+      "mp_property_name": "error"
+    },
+    {
+      "column_name": "ERRORCODE",
+      "data_type": "STRING",
+      "mp_property_name": "errorCode"
+    },
+    {
+      "column_name": "ERRORDESCRIPTION",
+      "data_type": "STRING",
+      "mp_property_name": "errorDescription"
+    },
+    {
+      "column_name": "ERRORMESSAGE",
+      "data_type": "STRING",
+      "mp_property_name": "errorMessage"
+    },
+    {
+      "column_name": "ERRORS",
+      "data_type": "STRING",
+      "mp_property_name": "errors"
+    },
+    {
+      "column_name": "EVENTSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "eventSource"
+    },
+    {
+      "column_name": "EXITINTENTBSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "exitIntentBSVariant"
+    },
+    {
+      "column_name": "EXPERTBRANDINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "expertBrandingVariant"
+    },
+    {
+      "column_name": "FACTOR",
+      "data_type": "STRING",
+      "mp_property_name": "factor"
+    },
+    {
+      "column_name": "FAILEDMSG",
+      "data_type": "STRING",
+      "mp_property_name": "failedMsg"
+    },
+    {
+      "column_name": "FAILEDTXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "failedTxnCount"
+    },
+    {
+      "column_name": "FAILREASON",
+      "data_type": "STRING",
+      "mp_property_name": "failReason"
+    },
+    {
+      "column_name": "FAILUREREASON",
+      "data_type": "STRING",
+      "mp_property_name": "failureReason"
+    },
+    {
+      "column_name": "FAILURESTEP",
+      "data_type": "STRING",
+      "mp_property_name": "failureStep"
+    },
+    {
+      "column_name": "FBCLID",
+      "data_type": "STRING",
+      "mp_property_name": "fbclid"
+    },
+    {
+      "column_name": "FEEDBACK_TYPE",
+      "data_type": "STRING",
+      "mp_property_name": "feedback_type"
+    },
+    {
+      "column_name": "FEEDBACK_VALUE",
+      "data_type": "STRING",
+      "mp_property_name": "feedback_value"
+    },
+    {
+      "column_name": "FETCHEDACCOUNTSLENGTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "fetchedAccountsLength"
+    },
+    {
+      "column_name": "FETCHEDWRITTENOFFACCOUNTSPRESENT",
+      "data_type": "BOOL",
+      "mp_property_name": "fetchedWrittenOffAccountsPresent"
+    },
+    {
+      "column_name": "FETCHNEWBILL",
+      "data_type": "STRING",
+      "mp_property_name": "fetchNewBill"
+    },
+    {
+      "column_name": "FIELDS",
+      "data_type": "STRING",
+      "mp_property_name": "fields"
+    },
+    {
+      "column_name": "FILENAME",
+      "data_type": "STRING",
+      "mp_property_name": "fileName"
+    },
+    {
+      "column_name": "FILTER",
+      "data_type": "STRING",
+      "mp_property_name": "filter"
+    },
+    {
+      "column_name": "FINALPRICE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "finalPrice"
+    },
+    {
+      "column_name": "FINALUPIAPPSELECTED",
+      "data_type": "STRING",
+      "mp_property_name": "finalUpiAppSelected"
+    },
+    {
+      "column_name": "FIREBASEOTP",
+      "data_type": "BOOL",
+      "mp_property_name": "firebaseOTP"
+    },
+    {
+      "column_name": "FIRSTTXNPRICE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "firstTxnPrice"
+    },
+    {
+      "column_name": "FLOATING",
+      "data_type": "BOOL",
+      "mp_property_name": "floating"
+    },
+    {
+      "column_name": "FLOWNAME",
+      "data_type": "STRING",
+      "mp_property_name": "flowName"
+    },
+    {
+      "column_name": "FREEDCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "freedCardShown"
+    },
+    {
+      "column_name": "FREEDPITCHTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "freedPitchType"
+    },
+    {
+      "column_name": "FREEJOURNEYENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "freeJourneyEnabled"
+    },
+    {
+      "column_name": "FREEJOURNEYPITCHHEADERTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "freeJourneyPitchHeaderTitle"
+    },
+    {
+      "column_name": "FREEJOURNEYPITCHPAGEBTNTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "freeJourneyPitchPageBtnTitle"
+    },
+    {
+      "column_name": "FREEJOURNEYPITCHPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freeJourneyPitchPageVariant"
+    },
+    {
+      "column_name": "FREEJOURNEYSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "freeJourneySource"
+    },
+    {
+      "column_name": "FREEMIUMBOTTOMPAYBANNER",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumBottomPayBanner"
+    },
+    {
+      "column_name": "FREEMIUMCREDITREPORTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumCreditReportVariant"
+    },
+    {
+      "column_name": "FREEMIUMDIRECTBOTTOMSHEETVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumDirectBottomSheetVariant"
+    },
+    {
+      "column_name": "FREEMIUMDIRECTPAYCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumDirectPayCardVariant"
+    },
+    {
+      "column_name": "FREEMIUMHOMEPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumHomePageVariant"
+    },
+    {
+      "column_name": "FREEMIUMPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumPageVariant"
+    },
+    {
+      "column_name": "FREEMIUMPAGEVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumPageVideoVariant"
+    },
+    {
+      "column_name": "FREEMIUMPAYMENTPAGESUBSEQUENTAUTOLAUNCHVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumPaymentPageSubsequentAutoLaunchVariant"
+    },
+    {
+      "column_name": "FREEMIUMSIPPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "freemiumSipPageVariant"
+    },
+    {
+      "column_name": "FREQUENCY",
+      "data_type": "STRING",
+      "mp_property_name": "frequency"
+    },
+    {
+      "column_name": "FROMSTARTFREEDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "fromStartFreedVariant"
+    },
+    {
+      "column_name": "FULLCASHBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "fullCashbackVariant"
+    },
+    {
+      "column_name": "FULLMONEYRETURNUSER",
+      "data_type": "BOOL",
+      "mp_property_name": "fullMoneyReturnUser"
+    },
+    {
+      "column_name": "FULLMONEYRETURNUSERCOINSUSAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "fullMoneyReturnUserCoinsUsageVariant"
+    },
+    {
+      "column_name": "GAD_SOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "gad_source"
+    },
+    {
+      "column_name": "GAMIFICATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "gamificationVariant"
+    },
+    {
+      "column_name": "GAMIFIFCATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "gamififcationVariant"
+    },
+    {
+      "column_name": "GBRAID",
+      "data_type": "STRING",
+      "mp_property_name": "gbraid"
+    },
+    {
+      "column_name": "GCLID",
+      "data_type": "STRING",
+      "mp_property_name": "gclid"
+    },
+    {
+      "column_name": "GLOBALMERCHANTID",
+      "data_type": "STRING",
+      "mp_property_name": "globalmerchantId"
+    },
+    {
+      "column_name": "GMAILPERMISSIONMODALVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "gmailPermissionModalVariant"
+    },
+    {
+      "column_name": "GMAILRESUBSCRIBECARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "gmailReSubscribeCardShown"
+    },
+    {
+      "column_name": "GMAILRESUBSCRIBEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "gmailResubscribeVariant"
+    },
+    {
+      "column_name": "GMAILRESUBSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "gmailResubStatus"
+    },
+    {
+      "column_name": "GOODSCOREBUYSERVICEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "goodScoreBuyServiceVariant"
+    },
+    {
+      "column_name": "GOODSCOREONBOARDINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "goodScoreOnboardingVariant"
+    },
+    {
+      "column_name": "GOODSCORETXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "goodscoreTxnCount"
+    },
+    {
+      "column_name": "GSTCHARGED",
+      "data_type": "BOOL",
+      "mp_property_name": "gstCharged"
+    },
+    {
+      "column_name": "HASCTA",
+      "data_type": "BOOL",
+      "mp_property_name": "hasCTA"
+    },
+    {
+      "column_name": "HASDATA",
+      "data_type": "BOOL",
+      "mp_property_name": "hasData"
+    },
+    {
+      "column_name": "HASFLOWFINISHEDSUCCESSFULLY",
+      "data_type": "STRING",
+      "mp_property_name": "hasFlowFinishedSuccessfully"
+    },
+    {
+      "column_name": "HASNOACCOUNTSFETCHED",
+      "data_type": "BOOL",
+      "mp_property_name": "hasNoAccountsFetched"
+    },
+    {
+      "column_name": "HASPREMIUMVIDEOACCESS",
+      "data_type": "BOOL",
+      "mp_property_name": "hasPremiumVideoAccess"
+    },
+    {
+      "column_name": "HASUSERCANCELLEDSUBSCRIPTION",
+      "data_type": "BOOL",
+      "mp_property_name": "hasUserCancelledSubscription"
+    },
+    {
+      "column_name": "HIDEPERMISSIONSCREEN",
+      "data_type": "BOOL",
+      "mp_property_name": "hidePermissionScreen"
+    },
+    {
+      "column_name": "HIDEUNPAYABLECCVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "hideUnpayableCcVariant"
+    },
+    {
+      "column_name": "HIDEWHATSAPPREFERRALBOTTOMSHEET",
+      "data_type": "STRING",
+      "mp_property_name": "hideWhatsappReferralBottomSheet"
+    },
+    {
+      "column_name": "HIGHAMOUNTOVERDUEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "highAmountOverdueVariant"
+    },
+    {
+      "column_name": "HIGHUTILISATIONACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "highUtilisationAccounts"
+    },
+    {
+      "column_name": "HOMEBOTTOMCARDCAROUSELITEMS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "homeBottomCardCarouselItems"
+    },
+    {
+      "column_name": "HOMEBUTTONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "homeButtonText"
+    },
+    {
+      "column_name": "HOMEPAGE",
+      "data_type": "STRING",
+      "mp_property_name": "homepage"
+    },
+    {
+      "column_name": "HOMEPAGEAPIVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "homePageApiVariant"
+    },
+    {
+      "column_name": "HOMEPAGELOADERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "homePageLoaderVariant"
+    },
+    {
+      "column_name": "HOMEPAGEMENUVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "homepageMenuVariant"
+    },
+    {
+      "column_name": "HOMEPAGESKELETONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "homePageSkeletonVariant"
+    },
+    {
+      "column_name": "HOMEPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "homePageVariant"
+    },
+    {
+      "column_name": "IMPROVEDSCORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "improvedScore"
+    },
+    {
+      "column_name": "IMPROVEMENTCARDISEARLYSUBSCRIPTION",
+      "data_type": "BOOL",
+      "mp_property_name": "improvementCardIsEarlySubscription"
+    },
+    {
+      "column_name": "IMPROVEMENTCARDTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "improvementCardType"
+    },
+    {
+      "column_name": "IMPROVEMENTCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "improvementCardVariant"
+    },
+    {
+      "column_name": "IMPROVEMENTCARDVIEWED",
+      "data_type": "BOOL",
+      "mp_property_name": "improvementCardViewed"
+    },
+    {
+      "column_name": "IMPROVEMENTPLANSTEPSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "improvementPlanStepsPageVariant"
+    },
+    {
+      "column_name": "INDEX",
+      "data_type": "FLOAT64",
+      "mp_property_name": "index"
+    },
+    {
+      "column_name": "ingestion_type",
+      "data_type": "STRING",
+      "mp_property_name": "ingestion_type"
+    },
+    {
+      "column_name": "ININTERACTIVEVIDEO",
+      "data_type": "BOOL",
+      "mp_property_name": "inInteractiveVideo"
+    },
+    {
+      "column_name": "INITIATOR",
+      "data_type": "STRING",
+      "mp_property_name": "initiator"
+    },
+    {
+      "column_name": "INITIATORIMAGE",
+      "data_type": "STRING",
+      "mp_property_name": "initiatorImage"
+    },
+    {
+      "column_name": "INSTAGRAMCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "instagramCardVariant"
+    },
+    {
+      "column_name": "INTERACTIVEVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "interactiveVideoVariant"
+    },
+    {
+      "column_name": "ISADHOC",
+      "data_type": "BOOL",
+      "mp_property_name": "isAdhoc"
+    },
+    {
+      "column_name": "ISAIVIDEOINPARTS",
+      "data_type": "BOOL",
+      "mp_property_name": "isAIVideoInParts"
+    },
+    {
+      "column_name": "ISALREADYAUTOPAY",
+      "data_type": "BOOL",
+      "mp_property_name": "isAlreadyAutopay"
+    },
+    {
+      "column_name": "ISALREADYDAILYDEBIT",
+      "data_type": "BOOL",
+      "mp_property_name": "isAlreadyDailyDebit"
+    },
+    {
+      "column_name": "ISAUTOMATEDCRIFVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "isAutomatedCRIFvariant"
+    },
+    {
+      "column_name": "ISAUTOPAYOVERDUEACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "isAutopayOverdueAccount"
+    },
+    {
+      "column_name": "ISAUTOREDIRECTED",
+      "data_type": "BOOL",
+      "mp_property_name": "isAutoRedirected"
+    },
+    {
+      "column_name": "ISBBPSTXN",
+      "data_type": "BOOL",
+      "mp_property_name": "isBbpsTxn"
+    },
+    {
+      "column_name": "ISCALLOPTIONAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isCallOptionAvailable"
+    },
+    {
+      "column_name": "ISCAMPAIGNPAYMENTCONFIGACTIVE",
+      "data_type": "BOOL",
+      "mp_property_name": "isCampaignPaymentConfigActive"
+    },
+    {
+      "column_name": "ISCAMPAIGNPAYMENTCONFIGAPPLIED",
+      "data_type": "BOOL",
+      "mp_property_name": "isCampaignPaymentConfigApplied"
+    },
+    {
+      "column_name": "ISCAROUSELSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "isCarouselShown"
+    },
+    {
+      "column_name": "ISCCACCOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "isCCAccount"
+    },
+    {
+      "column_name": "ISCIBIEXPERTCALLACTIVE",
+      "data_type": "BOOL",
+      "mp_property_name": "isCibiExpertCallActive"
+    },
+    {
+      "column_name": "ISCOLLECTIONDATAPRESENT",
+      "data_type": "BOOL",
+      "mp_property_name": "isCollectionDataPresent"
+    },
+    {
+      "column_name": "ISCOLLECTIONLOANCARD",
+      "data_type": "BOOL",
+      "mp_property_name": "isCollectionLoanCard"
+    },
+    {
+      "column_name": "ISCREDITCARD",
+      "data_type": "BOOL",
+      "mp_property_name": "isCreditCard"
+    },
+    {
+      "column_name": "ISCUSTOMPGENABLEDFORBBPSTRANSACTIONS",
+      "data_type": "STRING",
+      "mp_property_name": "isCustomPGEnabledForBbpsTransactions"
+    },
+    {
+      "column_name": "ISCUSTOMPN",
+      "data_type": "BOOL",
+      "mp_property_name": "isCustomPN"
+    },
+    {
+      "column_name": "ISCXENVIRONMENTVARIANTFRESHCHAT",
+      "data_type": "BOOL",
+      "mp_property_name": "isCxEnvironmentVariantFreshChat"
+    },
+    {
+      "column_name": "ISDAILYREFRESHUSER",
+      "data_type": "BOOL",
+      "mp_property_name": "isDailyRefreshUser"
+    },
+    {
+      "column_name": "ISDEFAULT",
+      "data_type": "BOOL",
+      "mp_property_name": "isDefault"
+    },
+    {
+      "column_name": "ISEARLYREFRESH",
+      "data_type": "BOOL",
+      "mp_property_name": "isEarlyRefresh"
+    },
+    {
+      "column_name": "ISEARLYSUBSCRIPTION",
+      "data_type": "BOOL",
+      "mp_property_name": "isEarlySubscription"
+    },
+    {
+      "column_name": "ISELIGIBLEFORCIBILEXPERTCALL",
+      "data_type": "BOOL",
+      "mp_property_name": "isEligibleForCibilExpertCall"
+    },
+    {
+      "column_name": "ISFETCHEDACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "isFetchedAccount"
+    },
+    {
+      "column_name": "ISFREECALLAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isFreeCallAvailable"
+    },
+    {
+      "column_name": "ISFREEJOURNEYENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "isFreeJourneyEnabled"
+    },
+    {
+      "column_name": "ISFRESHCHATSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "isFreshChatShown"
+    },
+    {
+      "column_name": "ISFROMNOTIFICATIONPANELSTORY",
+      "data_type": "BOOL",
+      "mp_property_name": "isFromNotificationPanelStory"
+    },
+    {
+      "column_name": "ISFULLMONEYRETURNUSER",
+      "data_type": "BOOL",
+      "mp_property_name": "isFullMoneyReturnUser"
+    },
+    {
+      "column_name": "ISGMAILPERMISSIONAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isGmailPermissionAvailable"
+    },
+    {
+      "column_name": "ISGOINGLIVE",
+      "data_type": "BOOL",
+      "mp_property_name": "isGoingLive"
+    },
+    {
+      "column_name": "ISHLS",
+      "data_type": "BOOL",
+      "mp_property_name": "isHls"
+    },
+    {
+      "column_name": "ISLIVE",
+      "data_type": "BOOL",
+      "mp_property_name": "isLive"
+    },
+    {
+      "column_name": "ISLOADING",
+      "data_type": "BOOL",
+      "mp_property_name": "isLoading"
+    },
+    {
+      "column_name": "ISLOANWIDGETSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "isLoanWidgetShown"
+    },
+    {
+      "column_name": "ISMAILOPTIONAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isMailOptionAvailable"
+    },
+    {
+      "column_name": "ISMPOKKET",
+      "data_type": "BOOL",
+      "mp_property_name": "isMpokket"
+    },
+    {
+      "column_name": "ISNDXCOLLECTIONBILL",
+      "data_type": "BOOL",
+      "mp_property_name": "isNdxCollectionBill"
+    },
+    {
+      "column_name": "ISNEWUSER",
+      "data_type": "BOOL",
+      "mp_property_name": "isNewUser"
+    },
+    {
+      "column_name": "ISNONFETCHED",
+      "data_type": "BOOL",
+      "mp_property_name": "isNonFetched"
+    },
+    {
+      "column_name": "ISNONFETCHEDACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "isNonFetchedAccount"
+    },
+    {
+      "column_name": "ISNOTIFICATIONPANELSTORY",
+      "data_type": "STRING",
+      "mp_property_name": "isNotificationPanelStory"
+    },
+    {
+      "column_name": "ISNTCUSER",
+      "data_type": "BOOL",
+      "mp_property_name": "isNtcUser"
+    },
+    {
+      "column_name": "ISOVERDUE",
+      "data_type": "BOOL",
+      "mp_property_name": "isOverdue"
+    },
+    {
+      "column_name": "ISOVERDUEASPERREPORT",
+      "data_type": "BOOL",
+      "mp_property_name": "isOverdueAsPerReport"
+    },
+    {
+      "column_name": "ISP2DATAPRESENT",
+      "data_type": "BOOL",
+      "mp_property_name": "isP2DataPresent"
+    },
+    {
+      "column_name": "ISPENALTYCARDSHOWN",
+      "data_type": "STRING",
+      "mp_property_name": "isPenaltyCardShown"
+    },
+    {
+      "column_name": "ISPLANUPGRADED",
+      "data_type": "BOOL",
+      "mp_property_name": "isPlanUpgraded"
+    },
+    {
+      "column_name": "ISPREMIUMCALLAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isPremiumCallAvailable"
+    },
+    {
+      "column_name": "ISPRIMARYBUTTON",
+      "data_type": "BOOL",
+      "mp_property_name": "isPrimaryButton"
+    },
+    {
+      "column_name": "ISREFRESHAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isRefreshAvailable"
+    },
+    {
+      "column_name": "ISREFRESHED",
+      "data_type": "BOOL",
+      "mp_property_name": "isRefreshed"
+    },
+    {
+      "column_name": "ISRESUBSCRIBEFLOW",
+      "data_type": "BOOL",
+      "mp_property_name": "isResubscribeFlow"
+    },
+    {
+      "column_name": "ISSCOREINCREASED",
+      "data_type": "BOOL",
+      "mp_property_name": "isScoreIncreased"
+    },
+    {
+      "column_name": "ISSCOREREFRESHEDTODAY",
+      "data_type": "BOOL",
+      "mp_property_name": "isScoreRefreshedToday"
+    },
+    {
+      "column_name": "ISSETTLEDACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "isSettledAccount"
+    },
+    {
+      "column_name": "ISSHORTURL",
+      "data_type": "BOOL",
+      "mp_property_name": "isShortUrl"
+    },
+    {
+      "column_name": "ISSIGNEDCALL",
+      "data_type": "BOOL",
+      "mp_property_name": "isSignedCall"
+    },
+    {
+      "column_name": "ISSTORY",
+      "data_type": "BOOL",
+      "mp_property_name": "isStory"
+    },
+    {
+      "column_name": "ISSUESELECTED",
+      "data_type": "STRING",
+      "mp_property_name": "issueSelected"
+    },
+    {
+      "column_name": "ISSUPERCOINCHECKED",
+      "data_type": "BOOL",
+      "mp_property_name": "isSupercoinChecked"
+    },
+    {
+      "column_name": "ISTOPPANELSTORY",
+      "data_type": "BOOL",
+      "mp_property_name": "isTopPanelStory"
+    },
+    {
+      "column_name": "ISUPIAPPSAVAILABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "isUPIAppsAvailable"
+    },
+    {
+      "column_name": "ISUSERACTIVE",
+      "data_type": "BOOL",
+      "mp_property_name": "isUserActive"
+    },
+    {
+      "column_name": "ISUSERENQUIRED",
+      "data_type": "BOOL",
+      "mp_property_name": "isUserEnquired"
+    },
+    {
+      "column_name": "ISVIDEOENDED",
+      "data_type": "BOOL",
+      "mp_property_name": "isVideoEnded"
+    },
+    {
+      "column_name": "ISVIDEOPLAYED",
+      "data_type": "BOOL",
+      "mp_property_name": "isVideoPlayed"
+    },
+    {
+      "column_name": "ISVIDEOPOPUPSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "isVideoPopUpShown"
+    },
+    {
+      "column_name": "ISVIDEOURLPRESENT",
+      "data_type": "BOOL",
+      "mp_property_name": "isVideoURLPresent"
+    },
+    {
+      "column_name": "ISVIDEOWATCHED25PERCENT",
+      "data_type": "BOOL",
+      "mp_property_name": "isVideoWatched25Percent"
+    },
+    {
+      "column_name": "ISWITHINHOURS",
+      "data_type": "BOOL",
+      "mp_property_name": "isWithinHours"
+    },
+    {
+      "column_name": "ISWRITTENOFF",
+      "data_type": "BOOL",
+      "mp_property_name": "isWrittenOff"
+    },
+    {
+      "column_name": "ISWRITTENOFFACCOUNT",
+      "data_type": "BOOL",
+      "mp_property_name": "isWrittenOffAccount"
+    },
+    {
+      "column_name": "ITEMNAME",
+      "data_type": "STRING",
+      "mp_property_name": "itemName"
+    },
+    {
+      "column_name": "KFSDOWNLOADBUTTONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "kfsDownloadButtonVariant"
+    },
+    {
+      "column_name": "LABEL",
+      "data_type": "STRING",
+      "mp_property_name": "label"
+    },
+    {
+      "column_name": "LAMFBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "lamfBannerVariant"
+    },
+    {
+      "column_name": "LANG",
+      "data_type": "STRING",
+      "mp_property_name": "Lang"
+    },
+    {
+      "column_name": "LANGUAGE",
+      "data_type": "STRING",
+      "mp_property_name": "language"
+    },
+    {
+      "column_name": "LANGUAGEOPTIONSELECTED",
+      "data_type": "STRING",
+      "mp_property_name": "languageOptionSelected"
+    },
+    {
+      "column_name": "LASTBILLPAID",
+      "data_type": "STRING",
+      "mp_property_name": "lastBillPaid"
+    },
+    {
+      "column_name": "LASTUPDATEDAT",
+      "data_type": "STRING",
+      "mp_property_name": "lastUpdatedAt"
+    },
+    {
+      "column_name": "LATE_PAYMENTS_DAYS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "late_payments_days"
+    },
+    {
+      "column_name": "LATEPAYMENTACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "latePaymentAccounts"
+    },
+    {
+      "column_name": "LATEPAYMENTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "latePayments"
+    },
+    {
+      "column_name": "LAZYLOADCOMPONENTS",
+      "data_type": "STRING",
+      "mp_property_name": "lazyLoadComponents"
+    },
+    {
+      "column_name": "LENDER",
+      "data_type": "STRING",
+      "mp_property_name": "lender"
+    },
+    {
+      "column_name": "LENDER_NAME",
+      "data_type": "STRING",
+      "mp_property_name": "lender_name"
+    },
+    {
+      "column_name": "LENDERNAME",
+      "data_type": "STRING",
+      "mp_property_name": "lenderName"
+    },
+    {
+      "column_name": "LIKEDVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "likedVideo"
+    },
+    {
+      "column_name": "LIVEDURATION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "liveDuration"
+    },
+    {
+      "column_name": "LIVETIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "liveTime"
+    },
+    {
+      "column_name": "LOADINGPIPMODEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loadingPipModeVariant"
+    },
+    {
+      "column_name": "LOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loadTime"
+    },
+    {
+      "column_name": "LOANACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanAccounts"
+    },
+    {
+      "column_name": "LOANACCOUNTSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAccountsPageVariant"
+    },
+    {
+      "column_name": "LOANAUTOPAYBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopayBannerVariant"
+    },
+    {
+      "column_name": "LOANAUTOPAYPITCHVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopayPitchVariant"
+    },
+    {
+      "column_name": "LOANAUTOPAYPRESELECTEDAMOUNTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopayPreselectedAmountVariant"
+    },
+    {
+      "column_name": "LOANAUTOPAYSECTIONPRIORITY",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopaySectionPriority"
+    },
+    {
+      "column_name": "LOANAUTOPAYSHOULDPRESELECTPARTIALPAYMENT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopayShouldPreselectPartialPayment"
+    },
+    {
+      "column_name": "LOANAUTOPAYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanAutopayVariant"
+    },
+    {
+      "column_name": "LOANBEFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanBeFlowVariant"
+    },
+    {
+      "column_name": "LOANBILLPAYSETUPAUTOPAYBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanBillPaySetupAutopayBannerVariant"
+    },
+    {
+      "column_name": "LOANCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanCardVariant"
+    },
+    {
+      "column_name": "LOANCASHBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanCashbackVariant"
+    },
+    {
+      "column_name": "LOANCASHBACKVARIANTV2",
+      "data_type": "STRING",
+      "mp_property_name": "loanCashbackVariantV2"
+    },
+    {
+      "column_name": "LOANDASHBOARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanDashboardVariant"
+    },
+    {
+      "column_name": "LOANDISCOUNTFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanDiscountFlowVariant"
+    },
+    {
+      "column_name": "LOANINACTIVEBILLFETCHFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanInactiveBillFetchFlowVariant"
+    },
+    {
+      "column_name": "LOANORDERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanOrderVariant"
+    },
+    {
+      "column_name": "LOANOTHERBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanOtherBills"
+    },
+    {
+      "column_name": "LOANPAGESLIDERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPageSliderVariant"
+    },
+    {
+      "column_name": "LOANPAIDBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanPaidBills"
+    },
+    {
+      "column_name": "LOANPAYMENTFLOWCOMBINEDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentFlowCombinedVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentFlowVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTHISTORYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentHistoryVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTL2VARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentL2Variant"
+    },
+    {
+      "column_name": "LOANPAYMENTPAGEGRAPHVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentPageGraphVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTPAGELOADERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentPageLoaderVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPaymentPageVariant"
+    },
+    {
+      "column_name": "LOANPAYMENTSINCEJULY",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanPaymentSinceJuly"
+    },
+    {
+      "column_name": "LOANPENDINGBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanPendingBills"
+    },
+    {
+      "column_name": "LOANPOSTPAYMENTEXPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanPostPaymentExpVariant"
+    },
+    {
+      "column_name": "LOANREPAYMENTWIDGETLOADERVIEWED",
+      "data_type": "BOOL",
+      "mp_property_name": "loanRepaymentWidgetLoaderViewed"
+    },
+    {
+      "column_name": "LOANREPAYMENTWIDGETPOSITION",
+      "data_type": "STRING",
+      "mp_property_name": "loanRepaymentWidgetPosition"
+    },
+    {
+      "column_name": "LOANREPAYMENTWIDGETREPORTSFETCHEDBEFORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "loanRepaymentWidgetReportsFetchedBefore"
+    },
+    {
+      "column_name": "LOANREPAYMENTWIDGETVIEWED",
+      "data_type": "BOOL",
+      "mp_property_name": "loanRepaymentWidgetViewed"
+    },
+    {
+      "column_name": "LOANSLIDERAUTOSLIDEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "loanSliderAutoslideVariant"
+    },
+    {
+      "column_name": "LOCALIZATION",
+      "data_type": "BOOL",
+      "mp_property_name": "localization"
+    },
+    {
+      "column_name": "LOCKDOWNLOADBTN",
+      "data_type": "BOOL",
+      "mp_property_name": "lockDownloadBtn"
+    },
+    {
+      "column_name": "LOTTERYHOMEPAGEBANNERSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "lotteryHomePageBannerShown"
+    },
+    {
+      "column_name": "MAINVIDEOAUTOPLAYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "mainVideoAutoplayVariant"
+    },
+    {
+      "column_name": "MAINVIDEOBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "mainVideoBannerVariant"
+    },
+    {
+      "column_name": "MANDATE",
+      "data_type": "BOOL",
+      "mp_property_name": "mandate"
+    },
+    {
+      "column_name": "MANDATEONLYSIPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "mandateOnlySIPvariant"
+    },
+    {
+      "column_name": "MANDATEPRICE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "mandatePrice"
+    },
+    {
+      "column_name": "MANUAL",
+      "data_type": "BOOL",
+      "mp_property_name": "manual"
+    },
+    {
+      "column_name": "MANUALAUTOPAYSETUP",
+      "data_type": "BOOL",
+      "mp_property_name": "manualAutopaySetup"
+    },
+    {
+      "column_name": "MANUALDAILYDEBITCONFIG",
+      "data_type": "STRING",
+      "mp_property_name": "manualDailyDebitConfig"
+    },
+    {
+      "column_name": "MAXLIMIT",
+      "data_type": "STRING",
+      "mp_property_name": "maxLimit"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatched"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH0",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh0"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH0ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh0English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH0KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh0Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH0TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh0Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH0TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh0Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH1",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh1"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH10",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh10"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH10ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh10English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH10TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh10Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH11",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh11"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH11ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh11English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH11KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh11Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH12",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh12"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH12TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh12Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH13",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh13"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH1ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh1English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH1KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh1Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH1TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh1Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH1TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh1Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH2",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh2"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH2ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh2English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH2KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh2Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH2TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh2Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH2TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh2Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH3",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh3"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH3ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh3English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH3KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh3Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH3TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh3Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH3TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh3Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH4",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh4"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH4ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh4English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH4KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh4Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH4TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh4Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH4TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh4Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH5",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh5"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH5ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh5English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH5KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh5Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH5TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh5Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH5TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh5Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH6",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh6"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH6ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh6English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH6KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh6Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH6TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh6Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH6TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh6Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH7",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh7"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH7ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh7English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH7KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh7Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH7TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh7Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH7TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh7Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH8",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh8"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH8ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh8English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH8KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh8Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH8TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh8Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH8TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh8Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH9",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh9"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH9ENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh9English"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH9KANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh9Kannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH9TAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh9Tamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESH9TELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefresh9Telugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshNA"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNAENGLISH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshNAEnglish"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNAKANNADA",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshNAKannada"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNATAMIL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshNATamil"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNATELUGU",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshNATelugu"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHNULL",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshnull"
+    },
+    {
+      "column_name": "MAXVIDEOLENGTHWATCHEDREFRESHUNDEFINED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "maxVideoLengthWatchedRefreshundefined"
+    },
+    {
+      "column_name": "MESSAGE",
+      "data_type": "STRING",
+      "mp_property_name": "message"
+    },
+    {
+      "column_name": "MINLIMIT",
+      "data_type": "STRING",
+      "mp_property_name": "minLimit"
+    },
+    {
+      "column_name": "MIXPANELPROXYURLVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "mixpanelProxyUrlVariant"
+    },
+    {
+      "column_name": "MOBILENUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "mobileNumber"
+    },
+    {
+      "column_name": "MOBILERECHARGEPG",
+      "data_type": "STRING",
+      "mp_property_name": "mobileRechargePg"
+    },
+    {
+      "column_name": "MODE",
+      "data_type": "STRING",
+      "mp_property_name": "mode"
+    },
+    {
+      "column_name": "MP_COUNTRY_CODE",
+      "data_type": "STRING",
+      "mp_property_name": "mp_country_code"
+    },
+    {
+      "column_name": "MP_LIB",
+      "data_type": "STRING",
+      "mp_property_name": "mp_lib"
+    },
+    {
+      "column_name": "MP_SENT_BY_LIB_VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "mp_sent_by_lib_version"
+    },
+    {
+      "column_name": "MYBILLSORDERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "myBillsOrderVariant"
+    },
+    {
+      "column_name": "NAME",
+      "data_type": "STRING",
+      "mp_property_name": "name"
+    },
+    {
+      "column_name": "NATIVEHOMEPAGELOADERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "nativeHomePageLoaderVariant"
+    },
+    {
+      "column_name": "NDXCOLLECTIONBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "NDXCollectionBannerVariant"
+    },
+    {
+      "column_name": "NEGATIVEALERSCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "negativeAlersCardShown"
+    },
+    {
+      "column_name": "NEGATIVEALERTSCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "negativeAlertsCardShown"
+    },
+    {
+      "column_name": "NEGATIVEALERTSCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "negativeAlertsCount"
+    },
+    {
+      "column_name": "NEW_ACCOUNT_AMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "new_account_amount"
+    },
+    {
+      "column_name": "NEW_ACCOUNTS_TYPE",
+      "data_type": "STRING",
+      "mp_property_name": "new_accounts_type"
+    },
+    {
+      "column_name": "NEWACCOUNTS",
+      "data_type": "ARRAY<STRING>",
+      "mp_property_name": "newAccounts"
+    },
+    {
+      "column_name": "NEWACCOUNTSVIDEOINTOPPANELVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "newAccountsVideoInTopPanelVariant"
+    },
+    {
+      "column_name": "NEWACCOUNTVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "newAccountVideoVariant"
+    },
+    {
+      "column_name": "NEWBILLFETCHBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "newBillFetchBannerVariant"
+    },
+    {
+      "column_name": "NEWLYOPENEDACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "newlyOpenedAccounts"
+    },
+    {
+      "column_name": "NEWREPORATEVIDEOSUCCESS",
+      "data_type": "BOOL",
+      "mp_property_name": "newRepoRateVideoSuccess"
+    },
+    {
+      "column_name": "NEWREPORATEVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "newRepoRateVideoVariant"
+    },
+    {
+      "column_name": "NEXTAUTOPAYAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "nextAutopayAmount"
+    },
+    {
+      "column_name": "NEXTAUTOPAYDATE",
+      "data_type": "STRING",
+      "mp_property_name": "nextAutopayDate"
+    },
+    {
+      "column_name": "NEXTUPDATEINDAYSTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "nextUpdateInDaysText"
+    },
+    {
+      "column_name": "NONFETCHED",
+      "data_type": "BOOL",
+      "mp_property_name": "nonFetched"
+    },
+    {
+      "column_name": "NONFETCHEDOVERDUECTAVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "nonfetchedOverdueCtaVariant"
+    },
+    {
+      "column_name": "NONPREFETCHEDSUCCESS",
+      "data_type": "BOOL",
+      "mp_property_name": "nonPreFetchedSuccess"
+    },
+    {
+      "column_name": "NONPREFETCHLOANSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "nonPrefetchLoansVariant"
+    },
+    {
+      "column_name": "NOTIFPERMISSIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "notifPermissionVariant"
+    },
+    {
+      "column_name": "OLDSCORE",
+      "data_type": "STRING",
+      "mp_property_name": "oldScore"
+    },
+    {
+      "column_name": "ONBOARDINGHASHFIXESENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "onboardingHashFixesEnabled"
+    },
+    {
+      "column_name": "ONLYAUTOPAY",
+      "data_type": "BOOL",
+      "mp_property_name": "onlyAutopay"
+    },
+    {
+      "column_name": "ONLYDAILYDEBIT",
+      "data_type": "BOOL",
+      "mp_property_name": "onlyDailyDebit"
+    },
+    {
+      "column_name": "OPENDATE",
+      "data_type": "STRING",
+      "mp_property_name": "openDate"
+    },
+    {
+      "column_name": "OPERATOR",
+      "data_type": "STRING",
+      "mp_property_name": "operator"
+    },
+    {
+      "column_name": "OPTION",
+      "data_type": "STRING",
+      "mp_property_name": "option"
+    },
+    {
+      "column_name": "OPTIONSELECTED",
+      "data_type": "STRING",
+      "mp_property_name": "optionSelected"
+    },
+    {
+      "column_name": "OTHERACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "otherAccounts"
+    },
+    {
+      "column_name": "OTHERBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "otherBills"
+    },
+    {
+      "column_name": "OTHERISSUE",
+      "data_type": "STRING",
+      "mp_property_name": "otherIssue"
+    },
+    {
+      "column_name": "OTPAUTOREAD",
+      "data_type": "BOOL",
+      "mp_property_name": "otpAutoRead"
+    },
+    {
+      "column_name": "OTPREQUESTERROR",
+      "data_type": "STRING",
+      "mp_property_name": "otpRequestError"
+    },
+    {
+      "column_name": "OVER_DUE_AMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "over_due_amount"
+    },
+    {
+      "column_name": "OVERALLBILLAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overallBillAmount"
+    },
+    {
+      "column_name": "OVERALLCCACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overallCCAccounts"
+    },
+    {
+      "column_name": "OVERALLLOANACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overallLoanAccounts"
+    },
+    {
+      "column_name": "OVERDUE_IN_MONTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overdue_in_month"
+    },
+    {
+      "column_name": "OVERDUEACCOUNTSELIGIBLEFORAUTOPAY",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overdueAccountsEligibleForAutopay"
+    },
+    {
+      "column_name": "OVERDUEAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "overdueAmount"
+    },
+    {
+      "column_name": "PAGE",
+      "data_type": "STRING",
+      "mp_property_name": "page"
+    },
+    {
+      "column_name": "PAGE_PATH",
+      "data_type": "STRING",
+      "mp_property_name": "page_path"
+    },
+    {
+      "column_name": "PAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "pageVariant"
+    },
+    {
+      "column_name": "PAIDAMOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "paidAmount"
+    },
+    {
+      "column_name": "PAIDBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "paidBills"
+    },
+    {
+      "column_name": "PAIDEXPERTCALLCARDSHOWN",
+      "data_type": "STRING",
+      "mp_property_name": "paidExpertCallCardShown"
+    },
+    {
+      "column_name": "PANVALIDATION",
+      "data_type": "BOOL",
+      "mp_property_name": "panValidation"
+    },
+    {
+      "column_name": "PANVALIDATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "panValidationVariant"
+    },
+    {
+      "column_name": "PATH",
+      "data_type": "STRING",
+      "mp_property_name": "path"
+    },
+    {
+      "column_name": "PATHNAME",
+      "data_type": "STRING",
+      "mp_property_name": "pathname"
+    },
+    {
+      "column_name": "PAYABLEAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "payableAmount"
+    },
+    {
+      "column_name": "PAYBTNFOOTER",
+      "data_type": "STRING",
+      "mp_property_name": "payBtnFooter"
+    },
+    {
+      "column_name": "PAYBTNSUBTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "payBtnSubtitle"
+    },
+    {
+      "column_name": "PAYBTNTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "payBtnTitle"
+    },
+    {
+      "column_name": "PAYLOAD",
+      "data_type": "STRING",
+      "mp_property_name": "payload"
+    },
+    {
+      "column_name": "PAYMENT_MODE",
+      "data_type": "STRING",
+      "mp_property_name": "Payment_Mode"
+    },
+    {
+      "column_name": "PAYMENTAMOUNTEXACTNESS",
+      "data_type": "STRING",
+      "mp_property_name": "paymentAmountExactness"
+    },
+    {
+      "column_name": "PAYMENTFAILUREAUDIOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "paymentFailureAudioVariant"
+    },
+    {
+      "column_name": "PAYMENTFAILUREBSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "paymentFailureBSVariant"
+    },
+    {
+      "column_name": "PAYMENTHISTORY",
+      "data_type": "STRING",
+      "mp_property_name": "paymentHistory"
+    },
+    {
+      "column_name": "PAYMENTLINK",
+      "data_type": "STRING",
+      "mp_property_name": "paymentLink"
+    },
+    {
+      "column_name": "PAYNOWVIEWBILLVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "payNowViewBillVariant"
+    },
+    {
+      "column_name": "PAYRESPONSECODE",
+      "data_type": "STRING",
+      "mp_property_name": "payResponseCode"
+    },
+    {
+      "column_name": "PDFURL",
+      "data_type": "STRING",
+      "mp_property_name": "pdfUrl"
+    },
+    {
+      "column_name": "PENALTYCHARGESVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "penaltyChargesVariant"
+    },
+    {
+      "column_name": "PENALTYWAIVERTEXTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "penaltyWaiverTextVariant"
+    },
+    {
+      "column_name": "PENDINGBILLS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "pendingBills"
+    },
+    {
+      "column_name": "PENDINGTXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "pendingTxnCount"
+    },
+    {
+      "column_name": "PERF_APILOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_apiLoadTime"
+    },
+    {
+      "column_name": "PERF_ASSETLOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_assetLoadTime"
+    },
+    {
+      "column_name": "PERF_CONNECTIONTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "perf_connectionType"
+    },
+    {
+      "column_name": "PERF_COSTLIESTAPI",
+      "data_type": "STRING",
+      "mp_property_name": "perf_costliestApi"
+    },
+    {
+      "column_name": "PERF_COSTLIESTAPITIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_costliestApiTime"
+    },
+    {
+      "column_name": "PERF_COSTLIESTASSET",
+      "data_type": "STRING",
+      "mp_property_name": "perf_costliestAsset"
+    },
+    {
+      "column_name": "PERF_COSTLIESTASSETTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_costliestAssetTime"
+    },
+    {
+      "column_name": "PERF_COSTLIESTLINK",
+      "data_type": "STRING",
+      "mp_property_name": "perf_costliestLink"
+    },
+    {
+      "column_name": "PERF_COSTLIESTLINKTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_costliestLinkTime"
+    },
+    {
+      "column_name": "PERF_COSTLIESTSCRIPT",
+      "data_type": "STRING",
+      "mp_property_name": "perf_costliestScript"
+    },
+    {
+      "column_name": "PERF_COSTLIESTSCRIPTTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_costliestScriptTime"
+    },
+    {
+      "column_name": "PERF_DOMLOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_domLoadTime"
+    },
+    {
+      "column_name": "PERF_FIRSTCONTENTFULPAINT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_firstContentfulPaint"
+    },
+    {
+      "column_name": "PERF_FIRSTPAINT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_firstPaint"
+    },
+    {
+      "column_name": "PERF_LINKLOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_linkLoadTime"
+    },
+    {
+      "column_name": "PERF_ONLOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_onLoadTime"
+    },
+    {
+      "column_name": "PERF_PAGELOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_pageLoadTime"
+    },
+    {
+      "column_name": "PERF_SCRIPTLOADTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_scriptLoadTime"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTAPI",
+      "data_type": "STRING",
+      "mp_property_name": "perf_secondCostliestApi"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTAPITIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_secondCostliestApiTime"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTASSET",
+      "data_type": "STRING",
+      "mp_property_name": "perf_secondCostliestAsset"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTASSETTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_secondCostliestAssetTime"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTLINK",
+      "data_type": "STRING",
+      "mp_property_name": "perf_secondCostliestLink"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTLINKTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_secondCostliestLinkTime"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTSCRIPT",
+      "data_type": "STRING",
+      "mp_property_name": "perf_secondCostliestScript"
+    },
+    {
+      "column_name": "PERF_SECONDCOSTLIESTSCRIPTTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_secondCostliestScriptTime"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTAPI",
+      "data_type": "STRING",
+      "mp_property_name": "perf_thirdCostliestApi"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTAPITIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_thirdCostliestApiTime"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTASSET",
+      "data_type": "STRING",
+      "mp_property_name": "perf_thirdCostliestAsset"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTASSETTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_thirdCostliestAssetTime"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTLINK",
+      "data_type": "STRING",
+      "mp_property_name": "perf_thirdCostliestLink"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTLINKTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_thirdCostliestLinkTime"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTSCRIPT",
+      "data_type": "STRING",
+      "mp_property_name": "perf_thirdCostliestScript"
+    },
+    {
+      "column_name": "PERF_THIRDCOSTLIESTSCRIPTTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "perf_thirdCostliestScriptTime"
+    },
+    {
+      "column_name": "PERSISTENTNOTIFICATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "persistentNotificationVariant"
+    },
+    {
+      "column_name": "PG",
+      "data_type": "STRING",
+      "mp_property_name": "pg"
+    },
+    {
+      "column_name": "PGNAME",
+      "data_type": "STRING",
+      "mp_property_name": "pgName"
+    },
+    {
+      "column_name": "PGRESPONSECODE",
+      "data_type": "STRING",
+      "mp_property_name": "pgResponseCode"
+    },
+    {
+      "column_name": "PGTRANSACTIONID",
+      "data_type": "STRING",
+      "mp_property_name": "pgTransactionId"
+    },
+    {
+      "column_name": "PGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "pgVariant"
+    },
+    {
+      "column_name": "PHONE",
+      "data_type": "STRING",
+      "mp_property_name": "Phone"
+    },
+    {
+      "column_name": "PHONENUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "phoneNumber"
+    },
+    {
+      "column_name": "PLAN",
+      "data_type": "FLOAT64",
+      "mp_property_name": "plan"
+    },
+    {
+      "column_name": "PLATFORM",
+      "data_type": "STRING",
+      "mp_property_name": "Platform"
+    },
+    {
+      "column_name": "PLAYSPENDANALYZERPNVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "playSpendAnalyzerPnVideo"
+    },
+    {
+      "column_name": "PLAYSPENDANALYZERVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "playSpendAnalyzerVideo"
+    },
+    {
+      "column_name": "PLAYVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "playVideo"
+    },
+    {
+      "column_name": "PLAYVIDEOBUTTONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "playVideoButtonVariant"
+    },
+    {
+      "column_name": "PLCARDPINCODE",
+      "data_type": "STRING",
+      "mp_property_name": "plCardPincode"
+    },
+    {
+      "column_name": "PLCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "plCardShown"
+    },
+    {
+      "column_name": "PLVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "plVariant"
+    },
+    {
+      "column_name": "PNTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "pnType"
+    },
+    {
+      "column_name": "POLLATTEMPTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "pollAttempts"
+    },
+    {
+      "column_name": "POPUPSCHEDULERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "popupSchedulerVariant"
+    },
+    {
+      "column_name": "POSITION",
+      "data_type": "STRING",
+      "mp_property_name": "position"
+    },
+    {
+      "column_name": "POSTCANCELLATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "postCancellationVariant"
+    },
+    {
+      "column_name": "PREDICTEDSCORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "predictedScore"
+    },
+    {
+      "column_name": "PREFETCHEDBILLAPIVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "prefetchedBillApiVariant"
+    },
+    {
+      "column_name": "PRELOADVIDEODATA",
+      "data_type": "STRING",
+      "mp_property_name": "preloadVideoData"
+    },
+    {
+      "column_name": "PREMIUMBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "premiumBannerVariant"
+    },
+    {
+      "column_name": "PREVENTEXITONBACK",
+      "data_type": "STRING",
+      "mp_property_name": "preventExitOnBack"
+    },
+    {
+      "column_name": "PREVIOUSDISPUTESTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "previousDisputeStatus"
+    },
+    {
+      "column_name": "PREVIOUSSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "previousStatus"
+    },
+    {
+      "column_name": "PREVIOUSSUCCESSSTEP",
+      "data_type": "STRING",
+      "mp_property_name": "previousSuccessStep"
+    },
+    {
+      "column_name": "PRICE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "price"
+    },
+    {
+      "column_name": "PRODUCT",
+      "data_type": "STRING",
+      "mp_property_name": "product"
+    },
+    {
+      "column_name": "PROGRESS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "progress"
+    },
+    {
+      "column_name": "PROPERTIESUPDATED",
+      "data_type": "BOOL",
+      "mp_property_name": "propertiesUpdated"
+    },
+    {
+      "column_name": "PROXYSERVICEURL",
+      "data_type": "BOOL",
+      "mp_property_name": "proxyServiceUrl"
+    },
+    {
+      "column_name": "PUBLISHER_PLATFORM",
+      "data_type": "STRING",
+      "mp_property_name": "publisher_platform"
+    },
+    {
+      "column_name": "PURCHASEVALUE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "purchaseValue"
+    },
+    {
+      "column_name": "QUERY",
+      "data_type": "STRING",
+      "mp_property_name": "query"
+    },
+    {
+      "column_name": "QUESTION",
+      "data_type": "STRING",
+      "mp_property_name": "question"
+    },
+    {
+      "column_name": "RAISEDFROMSCREEN",
+      "data_type": "STRING",
+      "mp_property_name": "raisedFromScreen"
+    },
+    {
+      "column_name": "RAISEDISPUTEAUTOMATIONBUREAU",
+      "data_type": "STRING",
+      "mp_property_name": "raiseDisputeAutomationBureau"
+    },
+    {
+      "column_name": "RAISEDISPUTEAUTOMATIONENABLED",
+      "data_type": "STRING",
+      "mp_property_name": "raiseDisputeAutomationEnabled"
+    },
+    {
+      "column_name": "RATING",
+      "data_type": "FLOAT64",
+      "mp_property_name": "rating"
+    },
+    {
+      "column_name": "RBIBANNERTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "rbiBannerTitle"
+    },
+    {
+      "column_name": "RC",
+      "data_type": "STRING",
+      "mp_property_name": "rc"
+    },
+    {
+      "column_name": "RCAPPINSTALLED",
+      "data_type": "BOOL",
+      "mp_property_name": "rcAppInstalled"
+    },
+    {
+      "column_name": "RCJOURNEYCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "rcJourneyCardShown"
+    },
+    {
+      "column_name": "RCUNLOCKED",
+      "data_type": "BOOL",
+      "mp_property_name": "RCunlocked"
+    },
+    {
+      "column_name": "REASON",
+      "data_type": "STRING",
+      "mp_property_name": "reason"
+    },
+    {
+      "column_name": "RECEIVERIMAGE",
+      "data_type": "STRING",
+      "mp_property_name": "receiverImage"
+    },
+    {
+      "column_name": "RECENTLYRAISEDENQUIRIES",
+      "data_type": "FLOAT64",
+      "mp_property_name": "recentlyRaisedEnquiries"
+    },
+    {
+      "column_name": "RECURRINGCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "recurringCount"
+    },
+    {
+      "column_name": "REDIRECTIONURL",
+      "data_type": "STRING",
+      "mp_property_name": "redirectionUrl"
+    },
+    {
+      "column_name": "REFERRAL",
+      "data_type": "STRING",
+      "mp_property_name": "referral"
+    },
+    {
+      "column_name": "REFERRALBONUSCOINS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "referralBonusCoins"
+    },
+    {
+      "column_name": "REFERRALCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "referralCardShown"
+    },
+    {
+      "column_name": "REFERRALCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "referralCardVariant"
+    },
+    {
+      "column_name": "REFERRALCODE",
+      "data_type": "STRING",
+      "mp_property_name": "referralCode"
+    },
+    {
+      "column_name": "REFERRALLINK",
+      "data_type": "STRING",
+      "mp_property_name": "referralLink"
+    },
+    {
+      "column_name": "REFERRALLINKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "referralLinkVariant"
+    },
+    {
+      "column_name": "REFERRALMESSAGETEXTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "referralMessageTextVariant"
+    },
+    {
+      "column_name": "REFERRALPOPUPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "referralPopupVariant"
+    },
+    {
+      "column_name": "REFERRALTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "referralType"
+    },
+    {
+      "column_name": "REFERREDPHONENUMBER",
+      "data_type": "STRING",
+      "mp_property_name": "referredPhoneNumber"
+    },
+    {
+      "column_name": "REFERREDUSERNAME",
+      "data_type": "STRING",
+      "mp_property_name": "referredUserName"
+    },
+    {
+      "column_name": "REFERRER",
+      "data_type": "STRING",
+      "mp_property_name": "referrer"
+    },
+    {
+      "column_name": "REFID",
+      "data_type": "STRING",
+      "mp_property_name": "refId"
+    },
+    {
+      "column_name": "REFRESHEDBUREAU",
+      "data_type": "STRING",
+      "mp_property_name": "refreshedBureau"
+    },
+    {
+      "column_name": "REFRESHUSERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "refreshUserVariant"
+    },
+    {
+      "column_name": "REFRESHVIDEO",
+      "data_type": "BOOL",
+      "mp_property_name": "refreshVideo"
+    },
+    {
+      "column_name": "REFRESHVIDEOBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "refreshVideoBannerVariant"
+    },
+    {
+      "column_name": "REFRESHVIDEOLOADINGPIPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "refreshVideoLoadingPipVariant"
+    },
+    {
+      "column_name": "REFRESHVIDEOMONTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "refreshVideoMonth"
+    },
+    {
+      "column_name": "REFUNDRESPONSE",
+      "data_type": "STRING",
+      "mp_property_name": "refundResponse"
+    },
+    {
+      "column_name": "REMOTECONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "remoteContext"
+    },
+    {
+      "column_name": "RENDERONSESSION",
+      "data_type": "STRING",
+      "mp_property_name": "renderOnSession"
+    },
+    {
+      "column_name": "REPLAY_ENV",
+      "data_type": "STRING",
+      "mp_property_name": "replay_env"
+    },
+    {
+      "column_name": "REPLAY_LENGTH_MS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "replay_length_ms"
+    },
+    {
+      "column_name": "REPLAY_REGION",
+      "data_type": "STRING",
+      "mp_property_name": "replay_region"
+    },
+    {
+      "column_name": "REPLAY_START_TIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "replay_start_time"
+    },
+    {
+      "column_name": "REPORTOLDERTHAN90DAYS",
+      "data_type": "BOOL",
+      "mp_property_name": "reportOlderThan90Days"
+    },
+    {
+      "column_name": "REPORTSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "reportSource"
+    },
+    {
+      "column_name": "REQUESTID",
+      "data_type": "STRING",
+      "mp_property_name": "requestId"
+    },
+    {
+      "column_name": "REQUESTTIMESTAMP",
+      "data_type": "STRING",
+      "mp_property_name": "requestTimeStamp"
+    },
+    {
+      "column_name": "RESEND",
+      "data_type": "BOOL",
+      "mp_property_name": "resend"
+    },
+    {
+      "column_name": "RESUBSCRIBE",
+      "data_type": "BOOL",
+      "mp_property_name": "reSubscribe"
+    },
+    {
+      "column_name": "RESUBSCRIBEEXPERIMENTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "resubscribeExperimentVariant"
+    },
+    {
+      "column_name": "RETOOL",
+      "data_type": "STRING",
+      "mp_property_name": "retool"
+    },
+    {
+      "column_name": "REVIEW",
+      "data_type": "STRING",
+      "mp_property_name": "review"
+    },
+    {
+      "column_name": "SANCTIONEDAMOUNT",
+      "data_type": "STRING",
+      "mp_property_name": "sanctionedAmount"
+    },
+    {
+      "column_name": "SAVEDSOFAR",
+      "data_type": "FLOAT64",
+      "mp_property_name": "savedSoFar"
+    },
+    {
+      "column_name": "SAVIDEOTXNCARDVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "saVideoTxnCardVariant"
+    },
+    {
+      "column_name": "SAVINGSCARDVIEWED",
+      "data_type": "BOOL",
+      "mp_property_name": "savingsCardViewed"
+    },
+    {
+      "column_name": "SCOPESEPARATION",
+      "data_type": "BOOL",
+      "mp_property_name": "scopeSeparation"
+    },
+    {
+      "column_name": "SCORE",
+      "data_type": "STRING",
+      "mp_property_name": "score"
+    },
+    {
+      "column_name": "SCORE_PREDICTOR_FACTOR",
+      "data_type": "STRING",
+      "mp_property_name": "score_predictor_factor"
+    },
+    {
+      "column_name": "SCORECHANGE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "scoreChange"
+    },
+    {
+      "column_name": "SCOREDIFF",
+      "data_type": "FLOAT64",
+      "mp_property_name": "scoreDiff"
+    },
+    {
+      "column_name": "SCOREDROPVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "scoreDropVideoVariant"
+    },
+    {
+      "column_name": "SCOREIMPROVEMENTPLAN",
+      "data_type": "BOOL",
+      "mp_property_name": "scoreImprovementPlan"
+    },
+    {
+      "column_name": "SCOREMETERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "scoreMeterVariant"
+    },
+    {
+      "column_name": "SCOREPREDICTORCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "scorePredictorCardShown"
+    },
+    {
+      "column_name": "SCOREREFRESHDIALOG",
+      "data_type": "STRING",
+      "mp_property_name": "scoreRefreshDialog"
+    },
+    {
+      "column_name": "SCOREREFRESHDIALOGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "scoreRefreshDialogVariant"
+    },
+    {
+      "column_name": "SCOREREFRESHREVERSEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "scoreRefreshReverseVariant"
+    },
+    {
+      "column_name": "SCOREUPDATEDIALOG",
+      "data_type": "STRING",
+      "mp_property_name": "scoreUpdateDialog"
+    },
+    {
+      "column_name": "SCREENANIMATIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "screenAnimationVariant"
+    },
+    {
+      "column_name": "SCREENNAME",
+      "data_type": "STRING",
+      "mp_property_name": "screenName"
+    },
+    {
+      "column_name": "SELECTEDAMOUNTINPERCENTAGE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "selectedAmountInPercentage"
+    },
+    {
+      "column_name": "SELECTEDANSWER",
+      "data_type": "STRING",
+      "mp_property_name": "selectedAnswer"
+    },
+    {
+      "column_name": "SELECTEDLOANTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "selectedLoanType"
+    },
+    {
+      "column_name": "SELECTLANGUAGE",
+      "data_type": "BOOL",
+      "mp_property_name": "selectLanguage"
+    },
+    {
+      "column_name": "SELFFETCHFLOWVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "selfFetchFlowVariant"
+    },
+    {
+      "column_name": "SELFPAYMENTINBILLSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "selfPaymentInBillsVariant"
+    },
+    {
+      "column_name": "SENDNOTIFICATION",
+      "data_type": "BOOL",
+      "mp_property_name": "sendNotification"
+    },
+    {
+      "column_name": "SEQ_NO",
+      "data_type": "FLOAT64",
+      "mp_property_name": "seq_no"
+    },
+    {
+      "column_name": "SERVICE",
+      "data_type": "STRING",
+      "mp_property_name": "service"
+    },
+    {
+      "column_name": "SERVICEVIDEOBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "serviceVideoBannerVariant"
+    },
+    {
+      "column_name": "SESSION_ID",
+      "data_type": "STRING",
+      "mp_property_name": "session_id"
+    },
+    {
+      "column_name": "SETTLEDAMOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "settledAmount"
+    },
+    {
+      "column_name": "SETTLEDDEEPLINK",
+      "data_type": "STRING",
+      "mp_property_name": "settledDeepLink"
+    },
+    {
+      "column_name": "SHAREBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "shareBannerVariant"
+    },
+    {
+      "column_name": "SHAREBUTTONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "shareButtonText"
+    },
+    {
+      "column_name": "SHAREDKEY",
+      "data_type": "STRING",
+      "mp_property_name": "sharedKey"
+    },
+    {
+      "column_name": "SHAREVIDEOTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "shareVideoTitle"
+    },
+    {
+      "column_name": "SHAREVIDEOURL",
+      "data_type": "STRING",
+      "mp_property_name": "shareVideoUrl"
+    },
+    {
+      "column_name": "SHOULDBYPASSBILLERSCREEN",
+      "data_type": "STRING",
+      "mp_property_name": "shouldBypassBillerScreen"
+    },
+    {
+      "column_name": "SHOULDDIRECTLYLAUNCHGILD",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldDirectlyLaunchGild"
+    },
+    {
+      "column_name": "SHOULDENABLEFREED",
+      "data_type": "STRING",
+      "mp_property_name": "shouldEnableFreed"
+    },
+    {
+      "column_name": "SHOULDINVOKEGILDENABLE",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldInvokeGildEnable"
+    },
+    {
+      "column_name": "SHOULDSHOWCANCEL",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowCancel"
+    },
+    {
+      "column_name": "SHOULDSHOWCASHBACK",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowCashback"
+    },
+    {
+      "column_name": "SHOULDSHOWCOMMUNITY",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowCommunity"
+    },
+    {
+      "column_name": "SHOULDSHOWEARNCOINS",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowEarnCoins"
+    },
+    {
+      "column_name": "SHOULDSHOWFULLSCREENAIVIDEOVARIANT",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowFullScreenAIVideoVariant"
+    },
+    {
+      "column_name": "SHOULDSHOWGRAPH",
+      "data_type": "BOOL",
+      "mp_property_name": "shouldShowGraph"
+    },
+    {
+      "column_name": "SHOULDSHOWLOANDUEDATEPOPUP",
+      "data_type": "STRING",
+      "mp_property_name": "shouldShowLoanDueDatePopup"
+    },
+    {
+      "column_name": "SHOULDSHOWSACTAONMENU",
+      "data_type": "STRING",
+      "mp_property_name": "shouldShowSaCtaOnMenu"
+    },
+    {
+      "column_name": "SHOWALERTFROM",
+      "data_type": "FLOAT64",
+      "mp_property_name": "showAlertFrom"
+    },
+    {
+      "column_name": "SHOWAMITABHBANNER",
+      "data_type": "BOOL",
+      "mp_property_name": "showAmitabhBanner"
+    },
+    {
+      "column_name": "SHOWAPPPAYMENTHISTORY",
+      "data_type": "STRING",
+      "mp_property_name": "showAppPaymentHistory"
+    },
+    {
+      "column_name": "SHOWAUTORAISEDISPUTEERRORBOTTOMSHEET",
+      "data_type": "STRING",
+      "mp_property_name": "showAutoRaiseDisputeErrorBottomSheet"
+    },
+    {
+      "column_name": "SHOWBILLINFOPAGE",
+      "data_type": "STRING",
+      "mp_property_name": "showBillInfoPage"
+    },
+    {
+      "column_name": "SHOWBLANKREPORTVARIANT",
+      "data_type": "BOOL",
+      "mp_property_name": "showBlankReportVariant"
+    },
+    {
+      "column_name": "SHOWCASHBACKINFO",
+      "data_type": "BOOL",
+      "mp_property_name": "showCashbackInfo"
+    },
+    {
+      "column_name": "SHOWDISCLAIMER",
+      "data_type": "BOOL",
+      "mp_property_name": "showDisclaimer"
+    },
+    {
+      "column_name": "SHOWEMAILPOPUP",
+      "data_type": "BOOL",
+      "mp_property_name": "showEmailPopup"
+    },
+    {
+      "column_name": "SHOWERRORMESSAGE",
+      "data_type": "BOOL",
+      "mp_property_name": "showErrorMessage"
+    },
+    {
+      "column_name": "SHOWFRAUDCTA",
+      "data_type": "BOOL",
+      "mp_property_name": "showFraudCTA"
+    },
+    {
+      "column_name": "SHOWFREEDCTA",
+      "data_type": "BOOL",
+      "mp_property_name": "showFreedCTA"
+    },
+    {
+      "column_name": "SHOWFULLCASHBACKCARD",
+      "data_type": "BOOL",
+      "mp_property_name": "showFullCashbackCard"
+    },
+    {
+      "column_name": "SHOWGMAILMENUITEM",
+      "data_type": "BOOL",
+      "mp_property_name": "showGmailMenuItem"
+    },
+    {
+      "column_name": "SHOWGMAILTICKERCARD",
+      "data_type": "BOOL",
+      "mp_property_name": "showGmailTickerCard"
+    },
+    {
+      "column_name": "SHOWLOADERONHOMESCREEN",
+      "data_type": "BOOL",
+      "mp_property_name": "showLoaderOnHomeScreen"
+    },
+    {
+      "column_name": "SHOWLOANBILLPAYMENTCANCELLEDSURVEY",
+      "data_type": "STRING",
+      "mp_property_name": "showLoanBillPaymentCancelledSurvey"
+    },
+    {
+      "column_name": "SHOWMANUAL",
+      "data_type": "STRING",
+      "mp_property_name": "showManual"
+    },
+    {
+      "column_name": "SHOWMOBILENUMBERHINT",
+      "data_type": "BOOL",
+      "mp_property_name": "showMobileNumberHint"
+    },
+    {
+      "column_name": "SHOWMULTIPLEIMAGESONWHATSAPPSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "showMultipleImagesOnWhatsappStatus"
+    },
+    {
+      "column_name": "SHOWNEWDOWNLOADSBANNER",
+      "data_type": "BOOL",
+      "mp_property_name": "showNewDownloadsBanner"
+    },
+    {
+      "column_name": "SHOWNOTIFICATIONBADGE",
+      "data_type": "BOOL",
+      "mp_property_name": "showNotificationBadge"
+    },
+    {
+      "column_name": "SHOWNTCAIVIDEO",
+      "data_type": "BOOL",
+      "mp_property_name": "showNtcAiVideo"
+    },
+    {
+      "column_name": "SHOWPANDESCRIPTION",
+      "data_type": "BOOL",
+      "mp_property_name": "showPanDescription"
+    },
+    {
+      "column_name": "SHOWPANHELP",
+      "data_type": "BOOL",
+      "mp_property_name": "showPanHelp"
+    },
+    {
+      "column_name": "SHOWPLANSELECTOR",
+      "data_type": "BOOL",
+      "mp_property_name": "showPlanSelector"
+    },
+    {
+      "column_name": "SHOWRBIBANNER",
+      "data_type": "BOOL",
+      "mp_property_name": "showRbiBanner"
+    },
+    {
+      "column_name": "SHOWRECOMMENDEDRECHARGEPACKS",
+      "data_type": "STRING",
+      "mp_property_name": "showRecommendedRechargePacks"
+    },
+    {
+      "column_name": "SHOWREFRESHCASHBACK",
+      "data_type": "STRING",
+      "mp_property_name": "showRefreshCashback"
+    },
+    {
+      "column_name": "SHOWRUPEEKGLBANNER",
+      "data_type": "STRING",
+      "mp_property_name": "showRupeekGLBanner"
+    },
+    {
+      "column_name": "SHOWSHIMMERINSKELETONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "showShimmerInSkeletonVariant"
+    },
+    {
+      "column_name": "SHOWSPENDANALYZERVIDEO",
+      "data_type": "BOOL",
+      "mp_property_name": "showSpendAnalyzerVideo"
+    },
+    {
+      "column_name": "SIMPLIFIEDACCOUNTTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "simplifiedAccountType"
+    },
+    {
+      "column_name": "SIPDATA",
+      "data_type": "STRING",
+      "mp_property_name": "sipdata"
+    },
+    {
+      "column_name": "SIPPAGEFULLSCREENVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipPageFullScreenVariant"
+    },
+    {
+      "column_name": "SIPPAGEREVAMPSHOWNCARDS",
+      "data_type": "STRING",
+      "mp_property_name": "sipPageRevampShownCards"
+    },
+    {
+      "column_name": "SIPPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipPageVariant"
+    },
+    {
+      "column_name": "SIPRESUBCTAVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipResubCTAVariant"
+    },
+    {
+      "column_name": "SIPRESUBEXPERIMENTBSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipResubExperimentBSVariant"
+    },
+    {
+      "column_name": "SIPRESUBSCRIBEEXPERIMENTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipResubscribeExperimentVariant"
+    },
+    {
+      "column_name": "SIPRESUBSCRIBEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sipResubscribeVariant"
+    },
+    {
+      "column_name": "SLIDERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "sliderVariant"
+    },
+    {
+      "column_name": "SOCIALMEDIA",
+      "data_type": "STRING",
+      "mp_property_name": "socialMedia"
+    },
+    {
+      "column_name": "SOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "source"
+    },
+    {
+      "column_name": "SPECIALCASHBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "specialCashbackVariant"
+    },
+    {
+      "column_name": "SPECIALOFFERENABLED",
+      "data_type": "BOOL",
+      "mp_property_name": "specialOfferEnabled"
+    },
+    {
+      "column_name": "SPENDANALYZERBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "spendAnalyzerBannerVariant"
+    },
+    {
+      "column_name": "SPENDANALYZERHISTORYREVAMPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "spendAnalyzerHistoryRevampVariant"
+    },
+    {
+      "column_name": "SPENDANALYZERSUMMARYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "spendAnalyzerSummaryVariant"
+    },
+    {
+      "column_name": "SPENDANALYZERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "spendAnalyzerVariant"
+    },
+    {
+      "column_name": "STACK",
+      "data_type": "STRING",
+      "mp_property_name": "stack"
+    },
+    {
+      "column_name": "STASHFINBBPSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "stashfinBbpsVariant"
+    },
+    {
+      "column_name": "STATE",
+      "data_type": "STRING",
+      "mp_property_name": "state"
+    },
+    {
+      "column_name": "STATUS",
+      "data_type": "STRING",
+      "mp_property_name": "status"
+    },
+    {
+      "column_name": "STEPPOSITION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "stepPosition"
+    },
+    {
+      "column_name": "STICKEYBANNERLOADERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "stickeyBannerLoaderVariant"
+    },
+    {
+      "column_name": "STICKYBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "stickyBannerVariant"
+    },
+    {
+      "column_name": "STICKYHASHFORUSER",
+      "data_type": "FLOAT64",
+      "mp_property_name": "stickyHashForUser"
+    },
+    {
+      "column_name": "STORE",
+      "data_type": "STRING",
+      "mp_property_name": "store"
+    },
+    {
+      "column_name": "SUBSCRIPTION",
+      "data_type": "BOOL",
+      "mp_property_name": "subscription"
+    },
+    {
+      "column_name": "SUBSCRIPTIONCANCELLATIONMODE",
+      "data_type": "STRING",
+      "mp_property_name": "subscriptionCancellationMode"
+    },
+    {
+      "column_name": "SUBSCRIPTIONID",
+      "data_type": "STRING",
+      "mp_property_name": "subscriptionId"
+    },
+    {
+      "column_name": "SUBSCRIPTIONSTATE",
+      "data_type": "STRING",
+      "mp_property_name": "subscriptionState"
+    },
+    {
+      "column_name": "SUBSEQUENTAUTOREDIRECTED",
+      "data_type": "BOOL",
+      "mp_property_name": "subsequentAutoRedirected"
+    },
+    {
+      "column_name": "SUCCESSTXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "successTxnCount"
+    },
+    {
+      "column_name": "SUPERCOINLOGOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "superCoinLogoVariant"
+    },
+    {
+      "column_name": "SUPERCOINS",
+      "data_type": "STRING",
+      "mp_property_name": "supercoins"
+    },
+    {
+      "column_name": "SUPERCOINSAVINGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "supercoinSavingVariant"
+    },
+    {
+      "column_name": "SUPERCOINSPAGEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "superCoinsPageVariant"
+    },
+    {
+      "column_name": "SUPERCOINSTXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "supercoinsTxnCount"
+    },
+    {
+      "column_name": "SUPPORTBUTTONTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "supportButtonText"
+    },
+    {
+      "column_name": "SUPPORTOPTIONCTASHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "supportOptionCtaShown"
+    },
+    {
+      "column_name": "TARGET_URL",
+      "data_type": "STRING",
+      "mp_property_name": "target_url"
+    },
+    {
+      "column_name": "TARGETAPP",
+      "data_type": "STRING",
+      "mp_property_name": "targetApp"
+    },
+    {
+      "column_name": "TARGETSCORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "targetScore"
+    },
+    {
+      "column_name": "TARGETUPIAPP",
+      "data_type": "STRING",
+      "mp_property_name": "targetUpiApp"
+    },
+    {
+      "column_name": "TESTIMONIALSECTIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "testimonialSectionVariant"
+    },
+    {
+      "column_name": "TIMEFORAUTOREDIRECTION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "timeForAutoRedirection"
+    },
+    {
+      "column_name": "TIMESTAMP",
+      "data_type": "STRING",
+      "mp_property_name": "timestamp"
+    },
+    {
+      "column_name": "TIPTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "tipType"
+    },
+    {
+      "column_name": "TITLE",
+      "data_type": "STRING",
+      "mp_property_name": "title"
+    },
+    {
+      "column_name": "TOTALACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalAccounts"
+    },
+    {
+      "column_name": "TOTALCOINSEARNED",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalCoinsEarned"
+    },
+    {
+      "column_name": "TOTALDURATION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalDuration"
+    },
+    {
+      "column_name": "TOTALELIGIBLELENDERS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalEligibleLenders"
+    },
+    {
+      "column_name": "TOTALFILTERS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalFilters"
+    },
+    {
+      "column_name": "TOTALPAYMENTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalPayments"
+    },
+    {
+      "column_name": "TOTALSAVINGSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "totalSavingsVariant"
+    },
+    {
+      "column_name": "TOTALSTEP",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalStep"
+    },
+    {
+      "column_name": "TOTALSUMAMOUNTFORSELFANDFETCHEDACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalSumAmountForSelfAndFetchedAccounts"
+    },
+    {
+      "column_name": "TOTALUPIAPPS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "totalUpiApps"
+    },
+    {
+      "column_name": "TRANSACTION_DATE",
+      "data_type": "STRING",
+      "mp_property_name": "transaction_date"
+    },
+    {
+      "column_name": "TRANSACTIONDATETIME",
+      "data_type": "STRING",
+      "mp_property_name": "transactionDatetime"
+    },
+    {
+      "column_name": "TRANSACTIONDETAILVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "transactionDetailVariant"
+    },
+    {
+      "column_name": "TRANSACTIONHISTORYPLACEMENTVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "transactionHistoryPlacementVariant"
+    },
+    {
+      "column_name": "TRANSACTIONID",
+      "data_type": "STRING",
+      "mp_property_name": "transactionId"
+    },
+    {
+      "column_name": "TRANSACTIONSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "transactionStatus"
+    },
+    {
+      "column_name": "TRIAL",
+      "data_type": "BOOL",
+      "mp_property_name": "trial"
+    },
+    {
+      "column_name": "TRIGGER",
+      "data_type": "STRING",
+      "mp_property_name": "trigger"
+    },
+    {
+      "column_name": "TRIGGERSOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "triggerSource"
+    },
+    {
+      "column_name": "TRYAGAINVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "tryAgainVariant"
+    },
+    {
+      "column_name": "TWOSTEPSUBSCRIPTIONCANCELVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "twoStepSubscriptionCancelVariant"
+    },
+    {
+      "column_name": "TXNCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "txnCount"
+    },
+    {
+      "column_name": "TYPE",
+      "data_type": "STRING",
+      "mp_property_name": "type"
+    },
+    {
+      "column_name": "UFBIUERBFIRVBYVRVUFVBEFVBERYBVEBJHVBVKEBK",
+      "data_type": "STRING",
+      "mp_property_name": "ufbiuerbfirvbyvrvufvbefvberybvebjhvbvkebk"
+    },
+    {
+      "column_name": "UNPAID",
+      "data_type": "BOOL",
+      "mp_property_name": "unpaid"
+    },
+    {
+      "column_name": "UNSUPPORTEDCCACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "unSupportedCcAccounts"
+    },
+    {
+      "column_name": "UPFRONTDISCOUNTGIVEN",
+      "data_type": "BOOL",
+      "mp_property_name": "upfrontDiscountGiven"
+    },
+    {
+      "column_name": "UPIAPP",
+      "data_type": "STRING",
+      "mp_property_name": "upiApp"
+    },
+    {
+      "column_name": "UPIAPPCOUNT",
+      "data_type": "FLOAT64",
+      "mp_property_name": "upiAppCount"
+    },
+    {
+      "column_name": "UPIAPPLENGTH",
+      "data_type": "FLOAT64",
+      "mp_property_name": "upiAppLength"
+    },
+    {
+      "column_name": "UPIAPPS",
+      "data_type": "ARRAY<STRING>",
+      "mp_property_name": "upiApps"
+    },
+    {
+      "column_name": "UPIAPPSELECTED",
+      "data_type": "STRING",
+      "mp_property_name": "upiAppSelected"
+    },
+    {
+      "column_name": "UPIOPTIONSSHOWNBYDEFAULT",
+      "data_type": "BOOL",
+      "mp_property_name": "UPIOptionsShownByDefault"
+    },
+    {
+      "column_name": "URL",
+      "data_type": "STRING",
+      "mp_property_name": "url"
+    },
+    {
+      "column_name": "USERAPPPERSPECTIVESURVEYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "userAppPerspectiveSurveyVariant"
+    },
+    {
+      "column_name": "USERCONTACT",
+      "data_type": "STRING",
+      "mp_property_name": "userContact"
+    },
+    {
+      "column_name": "USERDISPUTEREASON",
+      "data_type": "STRING",
+      "mp_property_name": "userDisputeReason"
+    },
+    {
+      "column_name": "USERID",
+      "data_type": "STRING",
+      "mp_property_name": "userId"
+    },
+    {
+      "column_name": "USERINPUTTEXT",
+      "data_type": "STRING",
+      "mp_property_name": "userInputText"
+    },
+    {
+      "column_name": "USERMANDATESTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "userMandateStatus"
+    },
+    {
+      "column_name": "USEROPTION",
+      "data_type": "STRING",
+      "mp_property_name": "userOption"
+    },
+    {
+      "column_name": "USERSELECTEDDISPUTE",
+      "data_type": "STRING",
+      "mp_property_name": "userSelectedDispute"
+    },
+    {
+      "column_name": "USERSELECTEDISSUE",
+      "data_type": "STRING",
+      "mp_property_name": "userSelectedIssue"
+    },
+    {
+      "column_name": "USERSELECTEDISSUEDESCRIPTION",
+      "data_type": "STRING",
+      "mp_property_name": "userSelectedIssueDescription"
+    },
+    {
+      "column_name": "USERSUBSCRIPTIONSTATE",
+      "data_type": "STRING",
+      "mp_property_name": "userSubscriptionState"
+    },
+    {
+      "column_name": "USERTESTIMONIALSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "userTestimonialsVariant"
+    },
+    {
+      "column_name": "UTILISATIONSCORE",
+      "data_type": "FLOAT64",
+      "mp_property_name": "utilisationScore"
+    },
+    {
+      "column_name": "UTILISATIONSTATUS",
+      "data_type": "STRING",
+      "mp_property_name": "utilisationStatus"
+    },
+    {
+      "column_name": "UTILITYBILLREMINDERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "utilityBillReminderVariant"
+    },
+    {
+      "column_name": "UTM_CAMPAIGN",
+      "data_type": "STRING",
+      "mp_property_name": "utm_campaign"
+    },
+    {
+      "column_name": "UTM_CONTENT",
+      "data_type": "STRING",
+      "mp_property_name": "utm_content"
+    },
+    {
+      "column_name": "UTM_MEDIUM",
+      "data_type": "STRING",
+      "mp_property_name": "utm_medium"
+    },
+    {
+      "column_name": "UTM_SOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "utm_source"
+    },
+    {
+      "column_name": "UUUU",
+      "data_type": "STRING",
+      "mp_property_name": "uuuu"
+    },
+    {
+      "column_name": "V",
+      "data_type": "STRING",
+      "mp_property_name": "v"
+    },
+    {
+      "column_name": "VALIDFORTRANSACTION",
+      "data_type": "BOOL",
+      "mp_property_name": "validForTransaction"
+    },
+    {
+      "column_name": "VALIDITY",
+      "data_type": "FLOAT64",
+      "mp_property_name": "validity"
+    },
+    {
+      "column_name": "VARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "variant"
+    },
+    {
+      "column_name": "VERNACULAR",
+      "data_type": "BOOL",
+      "mp_property_name": "vernacular"
+    },
+    {
+      "column_name": "VERSION",
+      "data_type": "STRING",
+      "mp_property_name": "Version"
+    },
+    {
+      "column_name": "VIDEOAUTOPLAYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoAutoplayVariant"
+    },
+    {
+      "column_name": "VIDEOCHANGESOURCE",
+      "data_type": "STRING",
+      "mp_property_name": "videoChangeSource"
+    },
+    {
+      "column_name": "VIDEOCTAVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoCtaVariant"
+    },
+    {
+      "column_name": "VIDEOCUSTOMPNVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoCustomPNVariant"
+    },
+    {
+      "column_name": "VIDEODURATION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "videoDuration"
+    },
+    {
+      "column_name": "VIDEOFEEDBACKVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoFeedbackVariant"
+    },
+    {
+      "column_name": "VIDEOID",
+      "data_type": "STRING",
+      "mp_property_name": "videoId"
+    },
+    {
+      "column_name": "VIDEOINDEX",
+      "data_type": "FLOAT64",
+      "mp_property_name": "videoIndex"
+    },
+    {
+      "column_name": "VIDEOLOADERTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "videoLoaderType"
+    },
+    {
+      "column_name": "VIDEOPARTSBANNERVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoPartsBannerVariant"
+    },
+    {
+      "column_name": "VIDEOPLAYERHLSVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoPlayerHlsVariant"
+    },
+    {
+      "column_name": "VIDEOPOPUPVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoPopupVariant"
+    },
+    {
+      "column_name": "VIDEOSCREENVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoScreenVariant"
+    },
+    {
+      "column_name": "VIDEOSECTIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoSectionVariant"
+    },
+    {
+      "column_name": "VIDEOSTRATEGYVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoStrategyVariant"
+    },
+    {
+      "column_name": "VIDEOTHUMBNAIL",
+      "data_type": "STRING",
+      "mp_property_name": "videoThumbnail"
+    },
+    {
+      "column_name": "VIDEOTITLE",
+      "data_type": "STRING",
+      "mp_property_name": "videoTitle"
+    },
+    {
+      "column_name": "VIDEOTYPE",
+      "data_type": "STRING",
+      "mp_property_name": "videoType"
+    },
+    {
+      "column_name": "VIDEOURL",
+      "data_type": "STRING",
+      "mp_property_name": "videoUrl"
+    },
+    {
+      "column_name": "VIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "videoVariant"
+    },
+    {
+      "column_name": "VISIBLENAME",
+      "data_type": "STRING",
+      "mp_property_name": "visibleName"
+    },
+    {
+      "column_name": "VISIBLENAMEVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "visibleNameVariant"
+    },
+    {
+      "column_name": "WALKTHROUGHDASHBOARDSECTIONVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "walkthroughDashboardSectionVariant"
+    },
+    {
+      "column_name": "WALKTHROUGHVIDEOVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "walkthroughVideoVariant"
+    },
+    {
+      "column_name": "WAREFERRALUIVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "waReferralUIVariant"
+    },
+    {
+      "column_name": "WASTATUSREFERRALMSGVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "waStatusReferralMsgVariant"
+    },
+    {
+      "column_name": "WATCHDURATION",
+      "data_type": "FLOAT64",
+      "mp_property_name": "watchDuration"
+    },
+    {
+      "column_name": "WATCHRCVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "watchRCvideo"
+    },
+    {
+      "column_name": "WATCHTIME",
+      "data_type": "FLOAT64",
+      "mp_property_name": "watchTime"
+    },
+    {
+      "column_name": "WATCHVIDEO",
+      "data_type": "STRING",
+      "mp_property_name": "watchvideo"
+    },
+    {
+      "column_name": "WATCHVIDEOCARDSHOWN",
+      "data_type": "BOOL",
+      "mp_property_name": "watchVideoCardShown"
+    },
+    {
+      "column_name": "WATCHVIDEODIALOG",
+      "data_type": "STRING",
+      "mp_property_name": "WatchVideoDialog"
+    },
+    {
+      "column_name": "WHATSAPPURL",
+      "data_type": "STRING",
+      "mp_property_name": "whatsappUrl"
+    },
+    {
+      "column_name": "WRITTENOFFACCOUNTS",
+      "data_type": "FLOAT64",
+      "mp_property_name": "writtenOffAccounts"
+    },
+    {
+      "column_name": "WRITTENOFFACCOUNTSINWIDGETVARIANT",
+      "data_type": "STRING",
+      "mp_property_name": "writtenOffAccountsInWidgetVariant"
+    },
+    {
+        "column_name": "ingestion_type",
+        "data_type": "STRING",
+        "mp_property_name": "ingestion_type"
+      }
+  ]

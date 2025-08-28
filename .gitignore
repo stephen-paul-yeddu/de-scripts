@@ -1,0 +1,7 @@
+db.sqlite3
+__pycache__
+myenv
+.DS_Store
+bigquery-client
+creds
+.env
